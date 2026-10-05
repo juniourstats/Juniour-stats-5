@@ -1,0 +1,1001 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>junior stats</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@500;600;700;800&display=swap">
+<link rel="apple-touch-icon" href="data:image/png;base64,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">
+<link rel="icon" type="image/png" href="data:image/png;base64,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">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="junior stats">
+<meta name="theme-color" content="#14213d">
+<style>
+:root{--bg:#eef2f6;--card:#fff;--tx:#0f1b2d;--mut:#5b6b80;--bd:#d9e0e8;--pr:#f26a21;--ink:#14213d;--ok:#0f8a7e;--no:#d0306a;--seg:#dde4ec;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0a1220;--card:#131d30;--tx:#e8eef6;--mut:#93a3b8;--bd:#25324a;--ink:#2a3b5e;--ok:#2dc4b2;--no:#ff6b97;--seg:#101a2b}}
+:root[data-theme="dark"]{--bg:#0a1220;--card:#131d30;--tx:#e8eef6;--mut:#93a3b8;--bd:#25324a;--ink:#2a3b5e;--ok:#2dc4b2;--no:#ff6b97;--seg:#101a2b}
+*{box-sizing:border-box;touch-action:manipulation;-webkit-tap-highlight-color:transparent}html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--tx);font-family:"Cairo",system-ui,-apple-system,"Segoe UI",Tahoma,sans-serif;padding:12px 12px 28px;max-width:640px;margin-inline:auto;line-height:1.45}
+button{font-family:inherit}
+.brand{display:flex;align-items:center;gap:10px;margin:4px 2px 12px}
+.brand b{font-size:21px;font-weight:800;letter-spacing:-.2px}
+.brand .ball{width:26px;height:26px;border-radius:50%;background:var(--pr);position:relative;flex:none;box-shadow:inset 0 0 0 2px var(--ink)}
+.brand .ball:before{content:"";position:absolute;inset:0;border-radius:50%;background:linear-gradient(var(--ink),var(--ink)) center/100% 2px no-repeat,linear-gradient(var(--ink),var(--ink)) center/2px 100% no-repeat}
+.nav{display:flex;gap:4px;margin-bottom:14px;background:var(--seg);padding:4px;border-radius:16px}
+.nav button{flex:1;border:0;background:transparent;color:var(--mut);border-radius:12px;padding:10px 4px;font-size:15px;font-weight:700;transition:background .15s,color .15s}
+.nav button.on{background:var(--ink);color:#fff;box-shadow:0 2px 8px rgba(20,33,61,.25)}
+.btn{border:0;background:var(--ink);color:#fff;border-radius:12px;padding:11px 16px;font-size:15px;font-weight:700}
+.btn.g{background:transparent;color:var(--tx);border:1.5px solid var(--bd)}
+.btn:active{transform:scale(.97)}
+.row{display:flex;gap:8px;margin:10px 0}
+.row input{flex:1;min-width:0;border:1.5px solid var(--bd);background:var(--card);color:var(--tx);border-radius:12px;padding:11px 12px;font-size:16px;font-family:inherit}
+.row input.n{flex:none;width:68px;text-align:center}
+.row input:focus,.pl input:focus{outline:2px solid var(--pr);outline-offset:1px}
+.court{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.pc{position:relative;background:var(--card);border:1.5px solid var(--bd);border-top:5px solid var(--pr);border-radius:16px;padding:8px 4px 4px;text-align:center;min-height:118px;touch-action:none;transition:transform .12s,border-color .12s,background .12s}
+.pc.empty{display:flex;align-items:center;justify-content:center;font-size:30px;color:var(--mut);border:1.5px dashed var(--bd);border-top:1.5px dashed var(--bd)}
+.pc .no{font-size:40px;font-weight:800;line-height:1.05;font-variant-numeric:tabular-nums;letter-spacing:-1px}
+.pc .nm{font-size:14px;font-weight:700;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;padding:0 4px}
+.pc .pt{display:inline-block;font-size:12px;font-weight:600;color:var(--mut);background:var(--bg);border-radius:20px;padding:1px 9px;margin-top:3px}
+.pc .sw{width:100%;border:0;border-top:1px solid var(--bd);background:none;color:var(--mut);font-size:16px;margin-top:5px;padding:3px}
+.pc.hot{border-color:var(--ok);border-top-color:var(--ok);background:color-mix(in srgb,var(--ok) 14%,var(--card));transform:scale(1.06)}
+.pc.hotm{border-color:var(--no);border-top-color:var(--no);background:color-mix(in srgb,var(--no) 12%,var(--card));transform:scale(1.06)}
+.pc.flash{animation:fl .5s}.pc.flashm{animation:flm .5s}
+@keyframes fl{0%{background:color-mix(in srgb,var(--ok) 40%,var(--card))}100%{background:var(--card)}}
+@keyframes flm{0%{background:color-mix(in srgb,var(--no) 40%,var(--card))}100%{background:var(--card)}}
+.sub{background:var(--card);border:1.5px dashed var(--pr);border-radius:14px;padding:10px;margin:10px 0}
+.sub h3{font-size:14px;margin:0 0 8px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{border:1.5px solid var(--bd);background:var(--bg);color:var(--tx);border-radius:20px;padding:8px 13px;font-size:14px;font-weight:600}
+.mode{display:flex;gap:4px;margin:14px 0 6px;background:var(--seg);padding:4px;border-radius:14px}
+.mode button{flex:1;border:0;background:transparent;color:var(--mut);border-radius:10px;padding:9px;font-size:15px;font-weight:700}
+.mode .on.p{background:var(--ok);color:#fff}.mode .on.m{background:var(--no);color:#fff}
+.hint{font-size:12px;color:var(--mut);text-align:center;margin:2px 0 8px}
+.pad{display:grid;grid-template-columns:repeat(5,1fr);gap:6px}
+.ab{border:1.5px solid var(--bd);background:color-mix(in srgb,var(--mut) 10%,var(--card));color:var(--tx);border-radius:12px;min-height:62px;padding:3px;display:flex;flex-direction:column;align-items:center;justify-content:center;line-height:1.25;text-align:center;touch-action:none;user-select:none;-webkit-user-select:none;-webkit-touch-callout:none;cursor:grab}
+.ab small{font-size:10px;color:var(--mut);font-weight:600}.ab span{font-size:11px;font-weight:800}
+.ab.g{border-color:color-mix(in srgb,var(--ok) 55%,var(--bd));background:color-mix(in srgb,var(--ok) 13%,var(--card))}
+.ab.r{border-color:color-mix(in srgb,var(--no) 55%,var(--bd));background:color-mix(in srgb,var(--no) 11%,var(--card))}
+.ab.g span{color:var(--ok)}.ab.r span{color:var(--no)}
+.ab.drag{opacity:.35}
+.pad.minus .ab{outline:2px dashed color-mix(in srgb,var(--no) 60%,transparent);outline-offset:-4px}
+.ghost{position:fixed;z-index:99;pointer-events:none;transform:translate(-50%,-50%) scale(1.08);width:80px;min-height:62px;border:2px solid var(--ink);background:var(--card);color:var(--tx);border-radius:14px;display:flex;flex-direction:column;align-items:center;justify-content:center;box-shadow:0 10px 24px rgba(10,18,32,.4);line-height:1.25;text-align:center}
+.ghost.g{border-color:var(--ok)}.ghost.r{border-color:var(--no)}
+.ghost small{font-size:10px;color:var(--mut)}.ghost span{font-size:12px;font-weight:800}
+#toast{position:fixed;left:50%;bottom:calc(18px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:#fff;padding:11px 18px;border-radius:24px;font-size:14px;font-weight:700;opacity:0;transition:opacity .2s;pointer-events:none;z-index:100;max-width:92%;text-align:center;box-shadow:0 6px 18px rgba(0,0,0,.3)}
+.card{background:var(--card);border:1.5px solid var(--bd);border-radius:16px;padding:12px;margin:12px 0}
+.pl{display:flex;gap:6px;align-items:center;margin:8px 0}
+.pl input{min-width:0;border:1.5px solid var(--bd);background:var(--bg);color:var(--tx);border-radius:10px;padding:9px;font-size:16px;font-family:inherit}
+.pl input.n{width:56px;text-align:center;font-weight:800}.pl input.m{flex:1}
+.pl small{color:var(--mut);font-size:11px;width:34px;font-weight:700}
+.scr{overflow-x:auto;padding:0}
+table.t{border-collapse:separate;border-spacing:0;font-size:12px;text-align:center;width:100%}
+.t th,.t td{border-bottom:1px solid var(--bd);padding:8px 6px;white-space:nowrap;font-variant-numeric:tabular-nums}
+.t th{background:var(--ink);color:#fff;font-weight:700;font-size:11px}
+.t tbody tr:nth-child(even) td,.t tr:nth-child(even) td{background:color-mix(in srgb,var(--mut) 6%,var(--card))}
+.t tr.tm td{font-weight:800;background:color-mix(in srgb,var(--pr) 14%,var(--card));border-top:2px solid var(--pr)}
+.tot{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.tot div{background:var(--bg);border-radius:14px;padding:12px 8px;text-align:center}
+.tot span{display:block;font-size:12px;color:var(--mut);font-weight:600}.tot strong{font-size:28px;font-weight:800;font-variant-numeric:tabular-nums}
+#rep{display:none}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+@media print{
+ @page{size:A4 landscape;margin:10mm}
+ body{background:#fff;color:#000;padding:0;max-width:none}
+ body>*:not(#rep){display:none!important}
+ #rep{display:block}
+ #rep h1{font-size:18px;margin:0 0 4px}#rep .d{font-size:12px;margin-bottom:8px;color:#444}
+ #rep table{width:100%;border-collapse:collapse;font-size:10px;text-align:center}
+ #rep th,#rep td{border:1px solid #444;padding:4px 2px}#rep th{background:#eee}
+ #rep tr.tm td{font-weight:700;background:#f3f3f3}
+}
+
+.court{grid-template-columns:repeat(3,1fr);gap:8px}
+.pc{min-height:112px;padding:8px 4px 4px;touch-action:none;transition:transform .12s,border-color .12s,background .12s}
+.pc .no{font-size:36px;line-height:1.1}.pc .nm{font-size:14px;font-weight:600}.pc .pt{font-size:13px}
+.pc.hot{border-color:var(--ok);background:color-mix(in srgb,var(--ok) 16%,var(--card));transform:scale(1.06)}
+.pc.hotm{border-color:var(--no);background:color-mix(in srgb,var(--no) 14%,var(--card));transform:scale(1.06)}
+.pc.flash{animation:fl .45s}.pc.flashm{animation:flm .45s}
+@keyframes fl{0%{background:color-mix(in srgb,var(--ok) 45%,var(--card))}100%{background:var(--card)}}
+@keyframes flm{0%{background:color-mix(in srgb,var(--no) 45%,var(--card))}100%{background:var(--card)}}
+.hint{font-size:12px;color:var(--mut);text-align:center;margin:2px 0 6px}
+.pad{grid-template-columns:repeat(5,1fr);gap:5px}
+.ab{min-height:58px;padding:2px;touch-action:none;user-select:none;-webkit-user-select:none;-webkit-touch-callout:none;cursor:grab}
+.ab small{font-size:10px}.ab span{font-size:11px;text-align:center}
+.ab.drag{opacity:.35}
+.ghost{position:fixed;z-index:99;pointer-events:none;transform:translate(-50%,-50%);width:78px;min-height:58px;border:2px solid var(--pr);background:var(--card);color:var(--tx);border-radius:12px;display:flex;flex-direction:column;align-items:center;justify-content:center;box-shadow:0 6px 18px rgba(0,0,0,.35);line-height:1.25;text-align:center}
+.ghost.g{border-color:var(--ok)}.ghost.r{border-color:var(--no)}
+.ghost small{font-size:10px;color:var(--mut)}.ghost span{font-size:12px;font-weight:700}
+#toast{position:fixed;left:50%;bottom:calc(18px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--tx);color:var(--bg);padding:10px 16px;border-radius:20px;font-size:14px;opacity:0;transition:opacity .2s;pointer-events:none;z-index:100;max-width:92%;text-align:center}
+
+:root{--w1:#c98f50;--w2:#d29a5b}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--w1:#6f4824;--w2:#79502a}}
+.board{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:6px;background:#0b1220;border-radius:16px;padding:10px;margin-bottom:10px;box-shadow:0 4px 14px rgba(10,18,32,.28),inset 0 0 0 2px #1f2d4a}
+.board div{text-align:center}.board span{display:block;font-size:11px;color:#8fa3c2;font-weight:700}
+.board b{font-size:34px;line-height:1.1;font-weight:800;color:#ffb020;font-variant-numeric:tabular-nums;text-shadow:0 0 12px rgba(255,176,32,.55)}
+.board div:first-child b{font-size:40px}
+.floor{position:relative;border-radius:20px;padding:14px 10px 12px;background:repeating-linear-gradient(90deg,var(--w1) 0 26px,var(--w2) 26px 52px);box-shadow:inset 0 0 0 4px #14213d,inset 0 0 40px rgba(0,0,0,.28),0 6px 18px rgba(10,18,32,.25);overflow:hidden}
+.floor .lines{position:absolute;inset:6px;width:calc(100% - 12px);height:calc(100% - 12px);pointer-events:none}
+.floor .court{position:relative;gap:10px 8px}
+.pc{border-top:6px solid var(--jc,var(--pr));min-height:150px;padding:6px 4px 4px;box-shadow:0 4px 10px rgba(0,0,0,.22)}
+.pc.empty{min-height:150px;background:rgba(255,255,255,.14);border:2px dashed rgba(255,255,255,.7);color:#fff}
+.pc .av{width:70px;height:82px;display:block;margin:0 auto -2px;filter:drop-shadow(0 2px 2px rgba(0,0,0,.2))}
+.pc .nm{margin-top:2px}
+.pc.hot,.pc.hotm{transform:scale(1.07)}
+.pc.hot{border-top-color:var(--ok)}.pc.hotm{border-top-color:var(--no)}
+
+.clock{display:flex;align-items:center;gap:8px;background:var(--card);border:1.5px solid var(--bd);border-radius:16px;padding:8px 10px;margin-bottom:10px}
+.clock #clk{flex:1;text-align:center;font-size:36px;font-weight:800;font-variant-numeric:tabular-nums;letter-spacing:1px}
+.clock.run #clk{color:var(--ok)}.clock #clk.low{color:var(--no)}
+.clock button{border:0;border-radius:12px;min-width:50px;height:48px;font-size:20px;background:var(--ink);color:#fff}
+.clock button.go{background:var(--ok)}
+.pc{min-height:128px}.pc.empty{min-height:128px}
+.pc .no{margin-top:2px}
+.pc .tm{font-size:12px;font-weight:700;color:var(--mut);font-variant-numeric:tabular-nums;margin-top:2px}
+.pc .tm:before{content:"⏱ "}
+
+.floor .court{grid-template-columns:repeat(6,1fr);gap:12px 8px}
+.court>.pc,.court>.pc.empty{grid-column:span 2}
+.court>:nth-child(4){grid-column:2/4}.court>:nth-child(5){grid-column:4/6}
+.pc{display:flex;flex-direction:column;align-items:stretch;min-height:138px;padding:6px 6px 4px;border-top-width:6px}
+.pc .no{position:absolute;top:8px;inset-inline-start:8px;width:28px;height:28px;margin:0;border-radius:50%;background:var(--jc,var(--pr));color:#fff;font-size:14px;font-weight:800;letter-spacing:0;line-height:1;display:flex;align-items:center;justify-content:center}
+.pc .nm{flex:1;display:flex;align-items:center;justify-content:center;font-size:17px;font-weight:800;line-height:1.2;white-space:normal;overflow:visible;text-overflow:clip;word-break:break-word;padding:26px 2px 2px;margin:0}
+.pc .meta{display:flex;justify-content:center;align-items:center;gap:4px;flex-wrap:wrap}
+.pc .pt{margin:0}
+.pc .tm{margin:0;background:var(--bg);border-radius:20px;padding:1px 8px;cursor:pointer}
+.pc .sw{margin-top:4px}
+.pc.empty{min-height:138px}
+.clock #clk{cursor:pointer}
+
+.pc,.pc.hot,.pc.hotm{border-top-width:1.5px}
+.pc{border-top:1.5px solid var(--bd)}
+.pc .no{background:var(--ink)}
+.cpanel{background:var(--card);border:1.5px solid var(--bd);border-radius:16px;padding:10px;margin:-2px 0 10px}
+.cpanel h3{font-size:14px;margin:0 0 8px}
+.cpanel .row{margin:10px 0 0}.cpanel .row .btn{padding:10px 12px}
+.chip.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+
+.sheet-bg{position:fixed;inset:0;background:rgba(10,18,32,.55);z-index:90;display:flex;align-items:flex-end;justify-content:center}
+.sheet{background:var(--card);width:100%;max-width:640px;max-height:84vh;overflow:auto;border-radius:22px 22px 0 0;padding:14px 14px calc(20px + env(safe-area-inset-bottom,0px));box-shadow:0 -8px 30px rgba(0,0,0,.35)}
+.sheet h2{margin:0 0 12px;font-size:21px;font-weight:800;display:flex;align-items:center;gap:8px}
+.sheet .x{margin-inline-start:auto;border:0;background:var(--bg);color:var(--tx);width:38px;height:38px;border-radius:50%;font-size:17px}
+.ssum{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-bottom:14px}
+.ssum div{background:var(--bg);border-radius:12px;padding:8px 4px;text-align:center}
+.ssum span{display:block;font-size:11px;color:var(--mut);font-weight:600}.ssum b{font-size:20px;font-weight:800;font-variant-numeric:tabular-nums}
+.slog h3{font-size:14px;margin:0 0 6px}
+.lg{display:flex;align-items:center;gap:10px;padding:6px 8px 6px 4px;border-radius:12px;margin:5px 0;background:var(--bg)}
+.lg:before{content:"";width:10px;height:10px;border-radius:50%;background:var(--mut);flex:none;margin-inline-start:6px}
+.lg.g:before{background:var(--ok)}.lg.r:before{background:var(--no)}
+.lg b{flex:1;font-size:14px}.lg span{color:var(--mut);font-size:12px;font-variant-numeric:tabular-nums}
+.lg button{border:0;background:transparent;color:var(--no);font-size:18px;width:38px;height:38px}
+
+.eh{font-size:14px;margin:0 0 6px}
+.eds{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-bottom:14px}
+.ed{display:flex;align-items:center;gap:6px;background:var(--bg);border-radius:12px;padding:6px 8px}
+.ed span{flex:1;font-size:12px;font-weight:700;line-height:1.2}
+.ed b{min-width:22px;text-align:center;font-size:17px;font-variant-numeric:tabular-nums}
+.ed button{width:36px;height:36px;border-radius:10px;background:var(--card);color:var(--tx);border:1.5px solid var(--bd);font-size:20px;font-weight:800;line-height:1}
+.ed.g b{color:var(--ok)}.ed.r b{color:var(--no)}
+
+.dlgbg{align-items:center;z-index:120}
+.dlg{background:var(--card);width:min(92%,420px);border-radius:20px;padding:18px;box-shadow:0 12px 36px rgba(0,0,0,.4)}
+.dlg p{margin:0 0 14px;font-size:16px;font-weight:700;line-height:1.5}
+.dlg input{width:100%;border:1.5px solid var(--bd);background:var(--bg);color:var(--tx);border-radius:12px;padding:12px;font-size:20px;text-align:center;font-family:inherit;margin-bottom:12px}
+.dlg .row{margin:0}.dlg .row .btn{flex:1}
+.brand .ver{margin-inline-start:auto;font-size:11px;font-weight:700;color:var(--mut);background:var(--seg);border-radius:10px;padding:2px 8px}
+.pc{min-height:150px}.pc.empty{min-height:150px}
+.pc .no{top:8px;inset-inline-start:8px;width:48px;height:48px;font-size:28px;font-weight:800;background:#14213d;color:#ffb020;border:2px solid #ffb020;box-shadow:0 2px 6px rgba(0,0,0,.3);font-variant-numeric:tabular-nums}
+.pc .nm{padding-top:46px}
+.floor.opp .pc .no{color:#ff7aa2;border-color:#ff7aa2}
+.floor.opp{background:repeating-linear-gradient(90deg,#8a6a4a 0 26px,#957552 26px 52px)}
+.mode.side{margin:0 0 10px}
+.board div:nth-child(-n+2) b{font-size:40px}
+
+.topbar{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:8px}
+.topbar>.board{flex:1 1 260px;margin:0}.topbar>.clock{flex:1 1 220px;margin:0}.topbar>.cpanel{flex:1 1 100%;margin:0}
+.arena{display:flex;direction:ltr;gap:8px;align-items:flex-start}
+.padcol{direction:rtl;width:204px;flex:none}
+.padcol .mode{margin:0 0 6px}.padcol .hint{margin:0 0 6px}
+.padcol .pad{grid-template-columns:repeat(3,1fr);gap:5px}
+.courtcol{flex:1;min-width:0;direction:rtl}
+.floor{padding:0}
+.halves{display:grid;grid-template-columns:1fr 1fr}
+.half{padding:8px 6px 10px}.half.b{background:rgba(0,0,0,.16)}
+.hl{font-size:12px;font-weight:800;color:#fff;text-align:center;margin-bottom:6px;text-shadow:0 1px 3px rgba(0,0,0,.5)}
+.half .cards{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.half .pc,.half .pc.empty{min-height:96px;padding:4px 3px}
+.half .pc .no{width:38px;height:38px;font-size:22px;top:6px;inset-inline-start:6px;border-width:2px}
+.half .pc .nm{font-size:14px;padding-top:34px}
+.half.b .pc .no{color:#ff7aa2;border-color:#ff7aa2}
+.half .pc .meta{gap:3px}.half .pc .pt,.half .pc .tm{font-size:11px;padding:1px 6px}
+.nopl{grid-column:1/-1;background:rgba(255,255,255,.2);border-radius:12px;padding:16px 8px;text-align:center;color:#fff;font-weight:700;font-size:13px}
+.benches{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:8px}
+.bench{background:#2a3b5e;border-radius:12px;border-bottom:6px solid #14213d;padding:8px;min-height:52px;display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.bench .bl{width:100%;font-size:11px;font-weight:800;color:#9fb3d6}.bench em{color:#9fb3d6;font-size:12px}
+.bp{display:flex;align-items:center;gap:6px;border:2px solid transparent;background:#e8eef6;color:#14213d;border-radius:22px;padding:3px 10px 3px 4px;font-weight:700;font-size:13px;font-family:inherit}
+.bp i{font-style:normal;background:#14213d;color:#ffb020;border-radius:50%;width:26px;height:26px;display:inline-flex;align-items:center;justify-content:center;font-weight:800;font-size:14px}
+.bp.on{border-color:#ffb020;background:#fff;transform:scale(1.06);box-shadow:0 0 0 3px rgba(255,176,32,.35)}
+.hint.warn{background:color-mix(in srgb,#ffb020 22%,var(--card));color:var(--tx);border-radius:10px;padding:6px 8px;font-weight:700;margin-bottom:8px}
+@media (orientation:landscape){
+ body{max-width:1000px}
+ .topbar .board b,.topbar .board div:first-child b,.board div:nth-child(-n+2) b{font-size:28px}
+ .topbar .clock #clk{font-size:28px}.topbar .clock button{height:40px}
+ .board{padding:6px 10px}
+}
+@media (orientation:landscape) and (max-height:520px){.brand{display:none}.nav{margin-bottom:8px}}
+@media (orientation:portrait){
+ .arena{flex-direction:column;direction:rtl}
+ .padcol{width:100%;order:2}.courtcol{width:100%;order:1}
+ .padcol .pad{grid-template-columns:repeat(5,1fr)}
+ .halves{grid-template-columns:1fr}
+ .half .cards{grid-template-columns:repeat(5,1fr);gap:5px}
+ .half .pc,.half .pc.empty{min-height:104px}
+ .half .pc .no{width:32px;height:32px;font-size:18px}
+ .half .pc .nm{font-size:12px;padding-top:34px}
+ .half .pc .meta{flex-direction:column;gap:2px}
+}
+
+/* ===== full-screen landscape court ===== */
+body.stageOn{overflow:hidden}
+.stage{position:fixed;inset:0;z-index:50;display:flex;flex-direction:column;gap:6px;direction:rtl;touch-action:none;container-type:inline-size;color:#e8eef6;
+ padding:max(6px,env(safe-area-inset-top)) max(8px,env(safe-area-inset-right)) max(6px,env(safe-area-inset-bottom)) max(8px,env(safe-area-inset-left));
+ background:radial-gradient(120% 90% at 50% 0%,#1d2a44,#0a1020);--midw:clamp(150px,24vw,210px)}
+@media (orientation:portrait){.stage{inset:auto;top:0;left:0;width:100vh;width:100dvh;height:100vw;height:100dvw;transform-origin:top left;transform:translateX(100vw) rotate(90deg);--midw:clamp(150px,24dvh,210px)}}
+.tb{display:flex;align-items:center;gap:8px;height:50px;flex:none}
+.sc{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:0;height:100%;min-width:112px;padding:0 12px;overflow:hidden;background:#0b1220;border:2px solid #1f2d4a;border-radius:14px;line-height:1.05}
+.sc span{font-size:10px;font-weight:700;color:#8fa3c2;line-height:1.1}
+.sc b{font-size:25px;line-height:1.05;font-weight:800;color:#ffb020;text-shadow:0 0 10px rgba(255,176,32,.5);font-variant-numeric:tabular-nums}
+.sc.b b{color:#ff7aa2;text-shadow:0 0 10px rgba(255,122,162,.5)}
+.ck{flex:1;min-width:0;height:100%;display:flex;align-items:center;justify-content:center;gap:8px;background:#0b1220;border:2px solid #1f2d4a;border-radius:14px;padding:0 8px}
+.ck #clk{min-width:96px;text-align:center;font-size:30px;font-weight:800;font-variant-numeric:tabular-nums;color:#e8eef6;cursor:pointer}
+.ck.run #clk{color:#7ff0e0}.ck #clk.low{color:#ff7aa2}
+.ckb{width:42px;height:38px;border:0;border-radius:10px;background:#2a3b5e;color:#fff;font-size:18px}
+.ckb.go{background:#0f8a7e}
+.tbn{display:flex;gap:6px;height:100%}
+.tbn button{width:48px;height:100%;border:0;border-radius:12px;background:#1f2d4a;color:#fff;font-size:20px}
+.warnbar{position:absolute;top:60px;left:50%;transform:translateX(-50%);z-index:6;background:#ffb020;color:#14213d;font-weight:800;font-size:13px;padding:6px 14px;border-radius:20px;pointer-events:none;box-shadow:0 4px 12px rgba(0,0,0,.4)}
+.court2{position:relative;flex:1;min-height:0;display:flex;border-radius:12px;overflow:hidden;background:repeating-linear-gradient(0deg,#d8a86f 0 22px,#cd9c60 22px 44px);box-shadow:0 8px 26px rgba(0,0,0,.55),0 0 0 3px #3a2a18}
+.court2:after{content:"";position:absolute;inset:0;pointer-events:none;box-shadow:inset 0 0 50px rgba(0,0,0,.25)}
+.court2 .cl{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+.hv{flex:1;min-width:0;position:relative;z-index:1;padding:10px 8px;display:grid;grid-template-columns:repeat(6,1fr);grid-template-rows:repeat(3,1fr);gap:8px}
+.hv .pc{grid-column:span 3}.hv .pc:nth-child(5){grid-column:2/5}
+.hv .nopl{grid-column:1/-1;grid-row:1/-1;align-self:center}
+.nopl{background:rgba(10,18,32,.55);border-radius:12px;padding:14px 8px;text-align:center;color:#fff;font-weight:700;font-size:13px}
+.stage .pc{position:relative;display:grid;grid-template-columns:auto 1fr;grid-template-rows:1fr auto;align-items:center;gap:2px 8px;min-height:0;padding:6px 8px;border:2px solid rgba(255,255,255,.95);border-radius:14px;background:rgba(255,255,255,.94);color:#0f1b2d;box-shadow:0 4px 10px rgba(0,0,0,.3);text-align:start;overflow:hidden}
+.stage .pc .no{position:static;grid-row:1;width:38px;height:38px;margin:0;display:flex;align-items:center;justify-content:center;border-radius:50%;background:#14213d;color:#ffb020;border:2px solid #ffb020;font-size:22px;font-weight:800;line-height:1;box-shadow:none;font-variant-numeric:tabular-nums}
+.hv.b .pc .no{color:#ff7aa2;border-color:#ff7aa2}
+.stage .pc .nm{display:block;flex:none;padding:0;margin:0;white-space:normal;overflow:hidden;text-align:start;font-size:clamp(12px,2.1cqw,17px);font-weight:800;line-height:1.15;word-break:break-word}
+.stage .pc .meta{grid-column:1/-1;display:flex;justify-content:space-between;align-items:center;gap:4px;margin:0}
+.stage .pc .pt{font-size:11px;font-weight:700;background:#eef2f6;color:#334155;border-radius:12px;padding:1px 7px;margin:0}
+.stage .pc .tm{font-size:11px;font-weight:700;color:#5b6b80;background:none;padding:0;margin:0}
+.stage .pc.empty{display:flex;align-items:center;justify-content:center;font-size:30px;color:#fff;background:rgba(255,255,255,.2);border:2px dashed rgba(255,255,255,.8);box-shadow:none}
+.stage .pc.hot{background:#d6fbf3;border-color:#2dc4b2;transform:scale(1.06)}
+.stage .pc.hotm{background:#ffe0ea;border-color:#ff6b97;transform:scale(1.06)}
+.mid{width:var(--midw);flex:none;position:relative;z-index:2;display:flex;flex-direction:column;gap:6px;padding:6px;margin:6px 0;background:rgba(10,18,32,.8);border:1.5px solid rgba(255,255,255,.14);border-radius:14px}
+.mid .mode{margin:0;height:34px;flex:none;padding:3px;background:rgba(255,255,255,.1)}
+.mid .mode button{padding:0;font-size:13px;color:#cdd7e6}
+.mid .pad{flex:1;min-height:0;display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:repeat(5,1fr);gap:4px}
+.mid .ab{min-height:0;height:100%;padding:1px;border-radius:9px;background:rgba(255,255,255,.1);border:1.5px solid rgba(255,255,255,.2);color:#fff}
+.mid .ab small{font-size:8.5px;color:#a9b8d0}.mid .ab span{font-size:10.5px}
+.mid .ab.g{background:rgba(45,196,178,.22);border-color:#2dc4b2}.mid .ab.g span{color:#7ff0e0}
+.mid .ab.r{background:rgba(255,107,151,.2);border-color:#ff6b97}.mid .ab.r span{color:#ffb0c8}
+.benchrow{flex:none;height:64px;display:flex}
+.benchmid{width:var(--midw);flex:none}
+.bn{flex:1;min-width:0;position:relative;display:flex;align-items:flex-end;gap:6px;padding:0 12px 16px;overflow-x:auto;overflow-y:hidden;touch-action:pan-x}
+.bn:after{content:"";position:absolute;left:8px;right:8px;bottom:5px;height:11px;border-radius:6px;background:linear-gradient(#b8844c,#7a5230);box-shadow:0 3px 0 #3a2616}
+.bn:before{content:"";position:absolute;left:18px;right:18px;bottom:0;height:4px;border-radius:2px;background:#3a2616}
+.bn .bl{position:absolute;top:2px;inset-inline-start:12px;font-size:10px;font-weight:800;color:#8fa3c2}
+.bn .bp{position:relative;z-index:1;flex:none;margin-bottom:0}
+.stage .sheet{max-height:94%;max-width:720px}
+.stage .sheet-bg{touch-action:pan-y}
+.ghost.gr{transform:translate(-50%,-50%) rotate(90deg) scale(1.08)}
+#toast{z-index:120}
+
+.pick{background:var(--card);color:var(--tx);border-radius:18px;padding:10px;width:min(96%,520px);height:94%;display:flex;flex-direction:column;gap:6px;direction:rtl}
+.pk-h{display:flex;align-items:center;gap:8px;flex:none}
+.pk-h b{font-size:15px;white-space:nowrap}.pk-h span{flex:1;min-width:0;font-size:12px;color:var(--mut);font-weight:700;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pk-h .btn{padding:8px 12px}
+.pick .hc{flex:1;min-height:0;width:100%;height:100%;cursor:crosshair;touch-action:none}
+.hc{display:block;width:100%;height:auto;border-radius:12px;box-shadow:0 0 0 2px var(--bd)}
+.charts{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+.ct{font-size:13px;font-weight:800;margin:0 0 6px;color:var(--mut)}
+.legend{display:flex;gap:16px;justify-content:center;margin-top:8px;font-size:13px;font-weight:700;color:var(--mut)}
+.legend i{display:inline-block;width:12px;height:12px;border-radius:50%;background:#16a34a;vertical-align:-1px;margin-inline-end:4px;font-style:normal}
+.legend i.dx{background:none;color:#e11d48;width:auto;height:auto;font-weight:800;border-radius:0}
+.dh{display:flex;align-items:center;gap:10px;margin:0 0 12px;font-size:22px;font-weight:800}
+.dn{display:inline-flex;align-items:center;justify-content:center;min-width:44px;height:44px;padding:0 6px;border-radius:50%;background:#14213d;color:#ffb020;border:2px solid #ffb020;font-size:24px}
+
+/* ===== v12: one team on a full-page court, opponent = score only ===== */
+.stage{display:block;padding:0 env(safe-area-inset-right) 0 env(safe-area-inset-left)}
+.stage .court2{position:absolute;inset:0 0 60px 0;border-radius:0;box-shadow:none;padding-top:58px;display:flex}
+.stage .tb{position:absolute;top:max(6px,env(safe-area-inset-top));left:8px;right:8px;height:46px;z-index:8}
+.stage .warnbar{top:60px}
+.stage .benchrow{position:absolute;left:0;right:0;bottom:0;height:60px;background:linear-gradient(#141c2e,#0a1020);border-top:3px solid #3a2a18}
+.stage .bn{padding-bottom:18px}
+.oppcol{width:clamp(130px,19cqw,170px);flex:none;position:relative;z-index:2;padding:6px 8px 6px 8px}
+.oppv{height:100%;display:flex;flex-direction:column;align-items:center;gap:6px;background:rgba(10,18,32,.78);border:1.5px solid rgba(255,255,255,.14);border-radius:14px;padding:8px 6px}
+.oppv .ol{font-size:13px;font-weight:800;color:#ff9fbd}
+.oppv .ov{font-size:clamp(46px,9cqw,78px);line-height:1;font-weight:800;color:#ff7aa2;text-shadow:0 0 14px rgba(255,122,162,.55);font-variant-numeric:tabular-nums;flex:1;display:flex;align-items:center}
+.oppv .ob{width:100%;display:grid;grid-template-columns:1fr 1fr;gap:6px}
+.oppv .ob button{height:44px;border:0;border-radius:10px;background:#d0306a;color:#fff;font-size:20px;font-weight:800}
+.oppv .ob button.mn{background:#2a3b5e}
+.stage .hv{padding:10px 12px 10px 10px;gap:10px}
+.stage .hv .pc .no{width:46px;height:46px;font-size:26px}
+.stage .hv .pc .nm{font-size:clamp(14px,2.6cqw,22px)}
+.stage .hv .pc .pt,.stage .hv .pc .tm{font-size:12px}
+.ssum b{white-space:nowrap}.ssum div{overflow:hidden}.ssum b{font-size:clamp(14px,4.4vw,20px)}
+/* ===== v13: portrait page again, quarters ===== */
+.floor{padding:12px 8px}
+.qbar{display:flex;align-items:center;gap:8px;background:var(--card);border:1.5px solid var(--bd);border-radius:16px;padding:6px 8px;margin-bottom:10px}
+.qbar>button{border:0;border-radius:12px;height:44px;min-width:48px;background:var(--ink);color:#fff;font-size:18px}
+.qbar>button:disabled{opacity:.3}
+.qbar .qn{flex:1;text-align:center;line-height:1.2}.qbar .qn b{display:block;font-size:19px;font-weight:800}.qbar .qn span{font-size:12px;color:var(--mut)}
+.qbar .qs{font-size:13px;padding:0 12px;font-weight:700}
+.oppbar{display:flex;align-items:center;gap:6px;background:var(--card);border:1.5px solid var(--bd);border-radius:14px;padding:6px 8px;margin-bottom:10px}
+.oppbar span{flex:1;font-weight:800;font-size:14px}
+.oppbar button{width:54px;height:42px;border:0;border-radius:10px;background:#d0306a;color:#fff;font-size:18px;font-weight:800}
+.oppbar button.mn{background:var(--ink)}
+.floor .pc .no{position:static;width:46px;height:46px;margin:2px auto 0;font-size:26px}.floor .pc .nm{padding:2px 2px 0;flex:none}.floor .pc{min-height:0;padding:8px 6px 4px;align-items:center}.floor .pc .meta{flex-direction:column;gap:3px;margin-top:4px}.floor .pc .sw{width:100%}
+/* ===== v16: two courts of 3 | English-only pad ===== */
+.pad{grid-template-columns:repeat(4,1fr);gap:7px}
+.ab{min-height:66px}.ab small{font-size:10px;letter-spacing:.3px}.ab span{font-size:15px;font-weight:800}
+.floor+.floor{margin-top:12px}
+.fl{color:#fff;font-weight:800;font-size:13px;text-align:center;margin:0 0 8px;text-shadow:0 1px 3px rgba(0,0,0,.5);position:relative}
+
+/* ===== v17: compact court page + teams ===== */
+.brand{margin:0 0 6px}.brand b{font-size:17px}.brand .ball{width:22px;height:22px}
+.nav{margin-bottom:8px;padding:3px}.nav button{padding:8px 2px;font-size:13.5px}
+.hd{display:grid;grid-template-columns:24% 1fr 24%;gap:6px;margin-bottom:8px}
+.hs{background:#0b1220;border-radius:14px;padding:6px 4px;color:#8fa3c2;display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:0}
+.hs span{font-size:11px;font-weight:700;max-width:100%;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+.hs b{font-size:34px;line-height:1.05;font-weight:800;color:#ffb020;text-shadow:0 0 12px rgba(255,176,32,.5);font-variant-numeric:tabular-nums}
+.hs.b b{color:#ff7aa2;text-shadow:0 0 12px rgba(255,122,162,.5)}
+.hs small{font-size:11px}
+.hs .ob{display:grid;grid-template-columns:1fr 1fr;gap:4px;width:100%;margin-top:6px}
+.hs .ob button{height:30px;border:0;border-radius:8px;background:#d0306a;color:#fff;font-weight:800;font-size:14px;padding:0}
+.hs .ob button.mn{background:#2a3b5e}
+.hm{display:flex;flex-direction:column;gap:6px;min-width:0}
+.hq,.hc{display:flex;align-items:center;gap:4px;background:var(--card);border:1.5px solid var(--bd);border-radius:12px;padding:3px;flex:1;min-width:0}
+.hq>div{flex:1;text-align:center;line-height:1.1;min-width:0}.hq b{font-size:16px;font-weight:800}.hq span{font-size:11px;color:var(--mut)}
+.hq button,.hc button{border:0;border-radius:9px;height:100%;min-height:34px;min-width:32px;flex:none;background:var(--ink);color:#fff;font-size:15px;padding:0}
+.hq button:disabled{opacity:.3}
+.hc button.go{background:var(--ok)}
+.hc #clk{flex:1;text-align:center;font-size:23px;font-weight:800;font-variant-numeric:tabular-nums;cursor:pointer;min-width:0}
+.hc.run #clk{color:var(--ok)}.hc #clk.low{color:var(--no)}
+.lv .floor{padding:8px 6px}.lv .floor+.floor{margin-top:8px}
+.lv .fl{margin:0 0 4px;font-size:12px}
+.lv .court{gap:6px}
+.lv .pc{min-height:0;display:block;padding:6px 3px 4px;border-radius:12px;position:relative;text-align:center}
+.lv .pc .no{position:static;width:32px;height:32px;font-size:17px;margin:0 auto 2px;border-width:2px}
+.lv .pc .nm{display:block;padding:0;margin:0;font-size:14px;font-weight:800;line-height:1.2;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;flex:none}
+.lv .pc .meta{display:flex;flex-direction:row;flex-wrap:wrap;justify-content:center;gap:3px;margin-top:3px}
+.lv .pc .pt,.lv .pc .tm{font-size:10.5px;padding:0 6px}
+.lv .pc .sw{position:absolute;top:1px;inset-inline-end:1px;width:26px;height:26px;padding:0;margin:0;border:0;background:none;font-size:15px;color:var(--mut)}
+.lv .pc.empty{min-height:64px;display:flex;align-items:center;justify-content:center}
+.lv .mode{margin:8px 0 6px;padding:3px;height:38px}.lv .mode button{padding:0;font-size:13px}
+.lv .mode .u{flex:.9;color:var(--tx)}
+.lv .pad{gap:5px}.lv .ab{min-height:0;height:52px;padding:1px}.lv .ab small{font-size:9.5px}.lv .ab span{font-size:14px}
+.lv .hint{font-size:11px;margin:6px 0 0}
+@media (max-height:760px){.lv .ab{height:46px}.lv .pc .no{width:28px;height:28px;font-size:15px}.hs b{font-size:30px}}
+.trow{display:flex;align-items:center;gap:8px;padding:10px 6px;border-bottom:1px solid var(--bd)}
+.trow:last-child{border-bottom:0}.trow.act{background:color-mix(in srgb,var(--ok) 12%,transparent);border-radius:12px}
+.tinfo{flex:1;min-width:0}.tinfo b{display:block;font-size:16px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.tinfo span{font-size:12px;color:var(--mut)}
+.btn:disabled{opacity:.55}
+.tnow{display:flex;align-items:center;gap:8px;margin:0 0 10px;font-size:14px}.tnow b{flex:1}
+.hd{grid-template-columns:22% 1fr 22%}.hq button,.hc button{min-width:30px;font-size:14px}.hc #clk{font-size:21px;letter-spacing:0}.hs b{font-size:30px}.hs .ob button{height:28px;font-size:13px}.lv .pc .pt,.lv .pc .tm{font-size:10px;padding:0 4px}.lv .pc .meta{gap:2px;flex-wrap:nowrap}.lv .pc{padding:5px 2px 3px}
+/* ===== v18: jersey cards, opponent PF ===== */
+.lv .pc.jr{background:none;border:0;box-shadow:none;padding:0;overflow:visible;height:106px;min-height:0;display:block;position:relative}
+.jr .jy{position:absolute;inset:0;width:100%;height:100%;filter:drop-shadow(0 3px 4px rgba(0,0,0,.4));transition:filter .2s}
+.jr .jc{position:absolute;left:14%;right:14%;top:26%;bottom:7%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1px;pointer-events:none;min-width:0}
+.lv .jr .no{position:static;width:auto;height:auto;margin:0;border:0;background:none;box-shadow:none;border-radius:0;color:#ffb020;font-size:30px;font-weight:800;line-height:1;font-variant-numeric:tabular-nums}
+.lv .jr .nm{max-width:100%;color:#fff;font-size:13px;font-weight:800;line-height:1.15}
+.jr .st{direction:ltr;unicode-bidi:isolate;font-size:10px;font-weight:700;color:#cbd5e6;white-space:nowrap}
+.lv .jr .sw{top:-2px;inset-inline-end:-2px;z-index:2;width:26px;height:26px;background:rgba(255,255,255,.85);border-radius:50%;color:#14213d;font-size:14px;box-shadow:0 1px 4px rgba(0,0,0,.3)}
+.lv .pc.jr.hot{background:none;transform:scale(1.07)}.lv .pc.jr.hotm{background:none;transform:scale(1.07)}
+.pc.jr.hot .body{fill:#0f8a7e}.pc.jr.hotm .body{fill:#d0306a}
+.pc.jr.flash .jy,.pc.jr.flashm .jy{animation:jf .45s}
+@keyframes jf{0%{filter:brightness(2.2) drop-shadow(0 3px 4px rgba(0,0,0,.4))}100%{filter:brightness(1) drop-shadow(0 3px 4px rgba(0,0,0,.4))}}
+.lv .pc.empty{height:106px}
+.hs .pfr{display:flex;align-items:center;justify-content:center;gap:3px;width:100%;margin-top:5px;color:#cbd5e6;font-size:11px;font-weight:800}
+.hs .pfr button{width:22px;height:22px;border:0;border-radius:6px;background:#2a3b5e;color:#fff;font-size:14px;font-weight:800;padding:0;line-height:1}
+.hs .pfr span{min-width:34px;text-align:center;direction:ltr}
+@media (max-height:760px){.lv .pc.jr,.lv .pc.empty{height:92px}.jr .no{font-size:26px}}
+
+.hs .rn{cursor:pointer;color:#ff9fbd}
+.lv .mode.side{margin:12px 0 4px;height:42px}
+</style>
+</head>
+<body>
+<div class="brand"><span class="ball"></span><b>junior stats</b><small class="ver">v19</small></div>
+<div class="nav" id="nav"></div>
+<div id="view"></div>
+<div id="rep"></div>
+<script>
+const G=[["m2l","m2s","x2l","x2s","m3","x3","ftm","ftx","dr","or","as","st","pf","tdt","ttr","tov","sec"]];
+const KEYS=G[0];
+let S={players:[],court:[null,null,null,null,null],sel:null,tab:"live",mode:"+",subSlot:null,fname:"junior stats"};
+try{const x=JSON.parse(localStorage.getItem("bara3em"));if(x&&Array.isArray(x.players))Object.assign(S,x)}catch(e){}
+let cloudDoc=null,cloudT=null;
+const save=()=>{
+  const at=Date.now();
+  try{localStorage.setItem("bara3em",JSON.stringify(S));localStorage.setItem("bara3em_at",String(at))}catch(e){}
+  if(cloudDoc){clearTimeout(cloudT);cloudT=setTimeout(()=>{cloudDoc.set({json:JSON.stringify(S),at}).catch(()=>{})},700)}
+};
+const blank=()=>Object.fromEntries(KEYS.map(k=>[k,0]));
+let _n=0;
+const P=id=>S.players.find(p=>p.id===id)||(S.opp||[]).find(p=>p.id===id);
+function norm(){
+S.players.forEach(p=>{if(!p.id)p.id=Date.now()+(_n++);KEYS.forEach(k=>{if(typeof p.s[k]!=="number")p.s[k]=0})});
+if(S.fmt!=="33")S.fmt="5";
+{const n=S.fmt==="33"?6:5;if(!Array.isArray(S.court))S.court=[];S.court=S.court.slice(0,n);while(S.court.length<n)S.court.push(null)}
+S.court=S.court.map(id=>P(id)?id:null);
+if(S.court.every(x=>!x))S.players.slice(0,5).forEach((p,i)=>S.court[i]=p.id);
+if(!P(S.sel))S.sel=S.court.find(x=>x)||null;
+if(!S.timer||typeof S.timer.len!=="number")S.timer={len:600,left:600,running:false};
+if(!Array.isArray(S.opp))S.opp=[];
+S.opp.forEach(p=>{if(!p.id)p.id=Date.now()+(_n++);if(!p.s)p.s={};KEYS.forEach(k=>{if(typeof p.s[k]!=="number")p.s[k]=0});if(!Array.isArray(p.log))p.log=[]});
+if(!Array.isArray(S.courtB)||S.courtB.length!==5)S.courtB=[null,null,null,null,null];
+S.courtB=S.courtB.map(id=>S.opp.find(p=>p.id===id)?id:null);
+if(typeof S.oppScore!=="number")S.oppScore=S.opp.reduce((a,p)=>a+((p.s.m2l||0)+(p.s.m2s||0))*2+(p.s.m3||0)*3+(p.s.ftm||0),0);
+S.opp=[];S.courtB=[null,null,null,null,null];S.side="a";
+if(![2,3,4,5,6].includes(S.qn))S.qn=4;
+S.q=Math.min(Math.max(S.q|0||1,1),S.qn);
+if(!Array.isArray(S.oppQ)||S.oppQ.length!==S.qn){const o=Array.isArray(S.oppQ)?S.oppQ:[S.oppScore||0];S.oppQ=Array.from({length:S.qn},(_,i)=>o[i]||0)}
+S.oppScore=S.oppQ.reduce((a,b)=>a+b,0);S.qOpen=false;if(typeof S.oppPF!=="number")S.oppPF=0;if(typeof S.oppName!=="string"||!S.oppName.trim())S.oppName="الخصم";
+S.timer.running=false;S.clkOpen=false;S.detail=null;S.benchSel=null;S.shot=null;if(S.rep!=="det")S.rep="all";S.players.forEach(p=>{if(!Array.isArray(p.log))p.log=[]});
+if(!["live","teams","roster","report"].includes(S.tab))S.tab="live";
+if(S.fname==="إحصائيات البراعم")S.fname="junior stats";
+S.subSlot=null;S.mode="+";
+if(!Array.isArray(S.teams)||!S.teams.length){S.teams=[{id:1,name:"فريقي",data:null}];S.team=1}
+if(!S.teams.some(t=>t.id===S.team)){S.teams.unshift({id:Date.now(),name:"فريقي",data:null});S.team=S.teams[0].id}
+S.teams.forEach(t=>{if(t.id===S.team)t.data=null});
+if(!Array.isArray(S.hist))S.hist=[];
+}
+norm();
+const pct=(a,b)=>b?Math.round(a/b*100)+"%":"-";
+function totals(s){
+  const m2=s.m2l+s.m2s,a2=m2+s.x2l+s.x2s,a3=s.m3+s.x3,aft=s.ftm+s.ftx,fgm=m2+s.m3,fga=a2+a3;
+  return {pts:m2*2+s.m3*3+s.ftm,m2,a2,m3:s.m3,a3,ftm:s.ftm,aft,fgm,fga,reb:s.dr+s.or,to:s.tdt+s.ttr+(s.tov||0),as:s.as,st:s.st,pf:s.pf}
+}
+const H=["رقم","الاسم","الوقت","نقاط","2 صح Layup","2 صح Shoot","2 غلط Layup","2 غلط Shoot","3 صح","3 غلط","حرة صح","حرة غلط","Dr","Or","Reb","As","St","Pf","Double Dribble","Travel","Tov","TO"];
+const rowv=(n,nm,s)=>{const t=totals(s);return [n,nm,(nm==="الفريق"||nm==="فريق الخصم")?"-":fmt(s.sec||0),t.pts,s.m2l,s.m2s,s.x2l,s.x2s,s.m3,s.x3,s.ftm,s.ftx,s.dr,s.or,t.reb,s.as,s.st,s.pf,s.tdt,s.ttr,s.tov||0,t.to]};
+const sumS=l=>Object.fromEntries(KEYS.map(k=>[k,l.reduce((a,p)=>a+(p.s[k]||0),0)]));
+const teamS=()=>sumS(S.players);
+const TM=()=>S.side==="b"?S.opp:S.players;
+const CT=()=>S.side==="b"?S.courtB:S.court;
+const isTm=r=>["الفريق","فريق الخصم","— الخصم —"].includes(r[1])||String(r[1]).startsWith("نتيجة ");
+const oppRows=()=>{const r=S.opp.map(p=>rowv(p.no,p.name,p.s));r.push(rowv("","فريق الخصم",sumS(S.opp)));return r};
+const pdfRows=()=>{const r=allRows();if(S.oppScore>0||S.oppPF>0){const d=Array(H.length).fill("");d[1]="نتيجة "+oppName();d[2]="-";d[3]=S.oppScore;d[17]=S.oppPF;r.push(d)}return r};
+const allRows=()=>{const r=S.players.map(p=>rowv(p.no,p.name,p.s));r.push(rowv("","الفريق",teamS()));return r};
+const fname=()=>((S.fname||"").trim().replace(/[\\\/:*?"<>|]+/g,"-")||"إحصائيات");
+const esc=s=>String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+function go(t){S.tab=t;S.subSlot=null;S.detail=null;S.benchSel=null;save();render()}
+function selP(id){S.sel=id;S.subSlot=null;save();render()}
+function setMode(m){S.mode=m;render()}
+function bump(k){const p=P(S.sel);if(!p)return;p.s[k]=Math.max(0,p.s[k]+(S.mode==="-"?-1:1));save();render()}
+function openSub(i){S.subSlot=S.subSlot===i?null:i;render()}
+function doSub(id){CT()[S.subSlot]=id;S.sel=id;S.subSlot=null;save();render()}
+function toBench(){CT()[S.subSlot]=null;S.subSlot=null;save();render()}
+function addP(){
+  const nm=document.getElementById("nm"),no=document.getElementById("no");
+  if(!nm.value.trim()&&!no.value.trim())return;
+  const p={id:Date.now(),name:nm.value.trim(),no:no.value.trim(),s:blank(),log:[]};
+  TM().push(p);
+  const e=CT().indexOf(null);if(e>-1)CT()[e]=p.id;
+  if(!S.sel)S.sel=p.id;
+  save();render();
+}
+function edP(id,f,v){P(id)[f]=v.trim();save()}
+function delP(id){ask("حذف اللاعب؟",null,()=>delP2(id))}function delP2(id){S.players=S.players.filter(p=>p.id!==id);S.opp=S.opp.filter(p=>p.id!==id);S.courtB=S.courtB.map(x=>x===id?null:x);S.court=S.court.map(x=>x===id?null:x);if(S.sel===id)S.sel=S.court.find(x=>x)||null;save();render()}
+function rstP(id){ask("تصفير إحصائيات اللاعب؟",null,()=>rstP2(id))}function rstP2(id){P(id).s=blank();P(id).log=[];save();render()}
+function rstAll(){ask("بداية ماتش جديد؟ هيتصفّر كل شيء: الإحصائيات وأوقات اللعب والسجل والتايمر.",null,rstAll2)}function rstAll2(){S.oppScore=0;S.oppPF=0;S.q=1;S.oppQ=Array(S.qn).fill(0);S.players.concat(S.opp).forEach(p=>{p.s=blank();p.log=[]});S.timer.left=S.timer.len;S.timer.running=false;save();render()}
+
+const PAD=[["m2l","MADE 2","Layup","g"],["m2s","MADE 2","Shoot","g"],["m3","MADE 3","3PT","g"],["ftm","MADE FT","FT","g"],["x2l","MISS 2","Layup","r"],["x2s","MISS 2","Shoot","r"],["x3","MISS 3","3PT","r"],["ftx","MISS FT","FT","r"],["dr","REB","Def",""],["or","REB","Off",""],["as","Assist","AST",""],["st","Steal","STL",""],["pf","Foul","PF",""],["tov","Turnover","TO",""],["tdt","TO","Double",""],["ttr","TO","Travel",""]];
+
+
+/* ===== player characters + court ===== */
+function look(id){
+  let x=(Math.abs(+id)%2147483646)+1;const r=n=>{x=(x*48271)%2147483647;return x%n};r(1);r(1);r(1);
+  const SK=["#f3d2b3","#e0ac7e","#c68642","#8d5524","#5a3825"],HR=["#1b1b1b","#3b2a1d","#6b4423","#c9a227","#2b2b2b"],JS=["#d0306a","#0f8a7e","#3b5bdb","#f59f00","#7048e8","#e8590c","#2b8a3e","#c92a2a"];
+  return {sk:SK[r(5)],hr:HR[r(5)],js:JS[r(8)],st:r(4)};
+}
+function board(){
+  const a=totals(teamS());
+  return `<div class="board"><div><span>نحن</span><b>${a.pts}</b></div><div><span>الخصم</span><b>${S.oppScore}</b></div><div><span>أخطاء فريقنا</span><b>${teamS().pf}</b></div></div>`;
+}
+function setSide(v){S.side=v;S.subSlot=null;S.detail=null;save();render()}
+function sideSw(){return `<div class="mode side"><button class="${S.side==="a"?"on p":""}" onclick="setSide('a')">🏀 فريقنا</button><button class="${S.side==="b"?"on m":""}" onclick="setSide('b')">🆚 الخصم</button></div>`}
+function addDummy(){for(let i=1;i<=5;i++){const p={id:Date.now()+i,name:"خصم "+i,no:String(i),s:blank(),log:[]};S.opp.push(p);S.courtB[i-1]=p.id}save();render()}
+
+/* ===== game clock + minutes played ===== */
+const fmt=s=>{s=Math.max(0,Math.round(s||0));return Math.floor(s/60)+":"+String(s%60).padStart(2,"0")};
+let LAST=0,SAVEAT=0;
+function clockHtml(){
+  const T=S.timer;
+  let h=`<div class="clock ${T.running?"run":""}"><button onclick="clkPanel()" aria-label="تغيير الوقت">⚙</button><div id="clk" onclick="clkEdit()" class="${T.left<=10?"low":""}">${fmt(T.left)}</div><button class="${T.running?"":"go"}" onclick="clkToggle()">${T.running?"⏸":"▶"}</button><button onclick="clkReset()">↺</button></div>`;
+  if(S.clkOpen)h+=`<div class="cpanel"><h3>مدة التايمر</h3><div class="chips">${[1,2,3,5,8,10,12,15,20,30,45,60].map(m=>`<button class="chip ${m*60===T.len?"on":""}" onclick="clkPreset(${m})">${m} د</button>`).join("")}</div><div class="row"><input id="cm" class="n" placeholder="دقايق" inputmode="decimal"><button class="btn" onclick="clkCustom()">ضبط</button><button class="btn g" onclick="clkAdj(-1)">−1 د</button><button class="btn g" onclick="clkAdj(1)">+1 د</button></div></div>`;
+  return h;
+}
+function clkPanel(){S.clkOpen=!S.clkOpen;render()}
+function clkApply(sec){if(!(sec>0))return;const T=S.timer;T.len=sec;T.left=sec;T.running=false;S.clkOpen=false;save();render()}
+function clkPreset(m){clkApply(m*60)}
+function clkCustom(){const v=document.getElementById("cm").value;if(!v.trim())return;clkApply(parseT(v))}
+function clkAdj(d){const T=S.timer;T.left=Math.max(0,T.left+d*60);if(T.left>T.len)T.len=T.left;LAST=Date.now();save();render()}
+let WL=null;
+async function wake(on){try{if(on){if(navigator.wakeLock&&!WL){WL=await navigator.wakeLock.request("screen");WL.addEventListener("release",()=>{WL=null})}}else if(WL){await WL.release();WL=null}}catch(e){}}
+function clkToggle(){const T=S.timer;if(T.left<=0)T.left=T.len;T.running=!T.running;LAST=Date.now();wake(T.running);save();render()}
+function clkSet(){clkPanel()}
+function clkReset(){const T=S.timer;if(T.running||T.left!==T.len){T.left=T.len;T.running=false;save();render()}}
+setInterval(()=>{
+  const T=S.timer;if(!T.running)return;
+  const now=Date.now();let dt=(now-LAST)/1000;LAST=now;dt=Math.min(dt,T.left);T.left-=dt;
+  S.court.concat(S.courtB).forEach(id=>{const p=id&&P(id);if(p)p.s.sec=(p.s.sec||0)+dt});
+  const c=document.getElementById("clk");if(c){c.textContent=fmt(T.left);c.className=T.left<=10?"low":""}
+  document.querySelectorAll("[data-t]").forEach(e=>{const p=P(+e.getAttribute("data-t"));if(p)e.textContent=fmt(p.s.sec)});
+  if(T.left<=0.001){T.left=0;T.running=false;wake(false);save();render();try{navigator.vibrate&&navigator.vibrate([300,150,300])}catch(e){}toast("انتهى الوقت ⏱ — انتقل للكوارتر الجاي");return}
+  if(now-SAVEAT>2000){SAVEAT=now;save()}
+},250);
+
+function parseT(v){
+  const m=String(v).trim().replace(/[٠-٩]/g,d=>"٠١٢٣٤٥٦٧٨٩".indexOf(d));
+  if(m.includes(":")){const q=m.split(":");return (+q[0]||0)*60+(+q[1]||0)}
+  return Math.round((parseFloat(m)||0)*60);
+}
+function clkEdit(){const T=S.timer;ask("عدّل الوقت الباقي (دقيقة:ثانية)",fmt(T.left),v=>{const sec=parseT(v);if(sec<0||isNaN(sec))return;T.left=sec;if(sec>T.len)T.len=sec;LAST=Date.now();save();render()})}
+function tmEdit(id){const p=P(id);if(!p)return;ask("وقت لعب "+(p.name||p.no)+" (دقيقة:ثانية)",fmt(p.s.sec),v=>{const sec=parseT(v);if(sec<0||isNaN(sec))return;p.s.sec=sec;save();render()})}
+
+/* ===== per-player action log ===== */
+const lbl=k=>{const b=PAD.find(x=>x&&x[0]===k);return b?b[1]+" "+b[2]:k};
+const lcls=k=>{const b=PAD.find(x=>x&&x[0]===k);return b?b[3]:""};
+function showP(id){S.detail=id;render()}
+function closeP(){S.detail=null;render()}
+function keepRender(){const sh=document.querySelector(".sheet"),st=sh?sh.scrollTop:0;render();const n=document.querySelector(".sheet");if(n)n.scrollTop=st}
+function undoLog(id,i){const p=P(id);if(!p||!p.log[i])return;const e=p.log[i];p.s[e.k]=Math.max(0,p.s[e.k]-1);p.log.splice(i,1);save();keepRender()}
+function adjStat(id,k,d){
+  const p=P(id);if(!p)return;const LG=p.log||(p.log=[]);
+  if(d<0){if(!p.s[k])return;p.s[k]-=1;for(let i=LG.length-1;i>=0;i--)if(LG[i].k===k){LG.splice(i,1);break}}
+  else{p.s[k]+=1;LG.push({k,c:fmt(S.timer.left),q:S.q})}
+  save();keepRender();
+}
+function sheet(){
+  const p=S.detail&&P(S.detail);if(!p)return"";
+  const t=totals(p.s),L=p.log||[];
+  const sum=[["نقاط",t.pts],["ريبوند",t.reb],["تمريرات",t.as],["سرقات",t.st],["أخطاء",t.pf],["Turnover",t.to],["2 نقطة",t.m2+"/"+t.a2],["3 نقاط",t.m3+"/"+t.a3],["رميات حرة",t.ftm+"/"+t.aft]];
+  const eds=PAD.filter(Boolean).map(b=>`<div class="ed ${b[3]}"><span>${b[1]} ${b[2]}</span><button onclick="adjStat(${p.id},'${b[0]}',-1)" aria-label="إنقاص">−</button><b>${p.s[b[0]]||0}</b><button onclick="adjStat(${p.id},'${b[0]}',1)" aria-label="زيادة">+</button></div>`).join("");
+  const rows=L.map((e,i)=>`<div class="lg ${lcls(e.k)}"><b>${lbl(e.k)}</b><span>Q${e.q||1} · ⏱ ${e.c}</span><button onclick="undoLog(${p.id},${i})" aria-label="حذف التسجيل">✕</button></div>`).reverse().join("");
+  return `<div class="sheet-bg" onclick="closeP()"><div class="sheet" onclick="event.stopPropagation()"><h2>${esc(p.no)||""} ${esc(p.name)||"لاعب"}<button class="x" onclick="closeP()">✕</button></h2><div class="ssum">${sum.map(a=>`<div><span>${a[0]}</span><b>${a[1]}</b></div>`).join("")}</div>${(S.court.includes(p.id)||S.courtB.includes(p.id))?`<button class="btn g" style="width:100%;margin-bottom:12px" onclick="toBench2(${p.id})">⬇ إخراج للدكة</button>`:""}<h3 class="eh">تعديل الأعداد (لتصحيح أي رقم)</h3><div class="eds">${eds}</div><div class="slog"><h3>اللي عمله بالترتيب (الأحدث فوق)</h3>${rows||'<div class="hint">لسه مفيش تسجيلات. التسجيلات القديمة قبل التحديث مش ظاهرة هنا.</div>'}<div class="hint">لو سجلت حاجة غلط، دوس ✕ جنبها وهتتمسح وتتنقص من الإحصائيات.</div></div></div></div>`;
+}
+
+/* ===== in-app dialogs (browser pop-ups are blocked inside Claude) ===== */
+function ask(msg,def,cb){
+  const old=document.getElementById("dlg");if(old)old.remove();
+  const d=document.createElement("div");d.id="dlg";d.className="sheet-bg dlgbg";
+  d.innerHTML='<div class="dlg"><p></p>'+(def!==null?'<input id="dlgi">':'')+'<div class="row"><button class="btn" id="dlgok">تأكيد</button><button class="btn g" id="dlgno">إلغاء</button></div></div>';
+  d.querySelector("p").textContent=msg;(document.getElementById("stage")||document.body).appendChild(d);
+  const i=d.querySelector("#dlgi");if(i){i.value=def;setTimeout(()=>{i.focus();i.select()},60)}
+  const close=()=>d.remove();
+  d.querySelector("#dlgno").onclick=close;
+  d.querySelector("#dlgok").onclick=()=>{const v=i?i.value:true;close();cb(v)};
+  d.addEventListener("click",e=>{if(e.target===d)close()});
+}
+
+const teamOf=id=>S.players.some(p=>p.id===id)?"a":"b";
+const courtOf=t=>t==="a"?S.court:S.courtB;
+function benchTap(id){S.benchSel=S.benchSel===id?null:id;render()}
+function cardTap(id){
+  const bs=S.benchSel;if(!bs){showP(id);return}
+  if(teamOf(bs)!==teamOf(id)){toast("اختار لاعب من نفس الفريق");return}
+  const c=courtOf(teamOf(id));c[c.indexOf(id)]=bs;S.benchSel=null;save();render();
+}
+function slotTap(t,i){
+  const bs=S.benchSel;if(!bs){toast("اختار لاعب من الدكة الأول");return}
+  if(teamOf(bs)!==t){toast("اختار لاعب من نفس الفريق");return}
+  courtOf(t)[i]=bs;S.benchSel=null;save();render();
+}
+function toBench2(id){const c=courtOf(teamOf(id)),i=c.indexOf(id);if(i>-1)c[i]=null;S.detail=null;save();render()}
+const COURT2='<svg class="cl" viewBox="0 0 310 100" preserveAspectRatio="none" aria-hidden="true"><rect x="1.5" y="30" width="46" height="40" fill="rgba(208,48,106,.42)"/><rect x="262.5" y="30" width="46" height="40" fill="rgba(15,138,126,.5)"/><g fill="none" stroke="#fff" stroke-opacity=".92" stroke-width="1.2" vector-effect="non-scaling-stroke"><rect x="1.5" y="1.5" width="307" height="97" vector-effect="non-scaling-stroke"/><line x1="155" y1="1.5" x2="155" y2="98.5" vector-effect="non-scaling-stroke"/><circle cx="155" cy="50" r="12" vector-effect="non-scaling-stroke"/><rect x="1.5" y="30" width="46" height="40" vector-effect="non-scaling-stroke"/><rect x="262.5" y="30" width="46" height="40" vector-effect="non-scaling-stroke"/><circle cx="47.5" cy="50" r="11" vector-effect="non-scaling-stroke"/><circle cx="262.5" cy="50" r="11" vector-effect="non-scaling-stroke"/><path d="M1.5 9H31A44 44 0 0 1 31 91H1.5" vector-effect="non-scaling-stroke"/><path d="M308.5 9H279A44 44 0 0 0 279 91H308.5" vector-effect="non-scaling-stroke"/><path d="M6 43V57M6 50H8.4" vector-effect="non-scaling-stroke"/><path d="M304 43V57M304 50H301.6" vector-effect="non-scaling-stroke"/><circle cx="10.6" cy="50" r="2.3" stroke="#ff7a1a" stroke-width="1.8" vector-effect="non-scaling-stroke"/><circle cx="299.4" cy="50" r="2.3" stroke="#ff7a1a" stroke-width="1.8" vector-effect="non-scaling-stroke"/></g></svg>';
+function hv(t){
+  const list=t==="a"?S.players:S.opp,c=courtOf(t);
+  let cards;
+  if(!list.length)cards=t==="b"?'<div class="nopl"><button class="btn" onclick="addDummy()">إضافة 5 لاعبين وهميين</button></div>':'<div class="nopl">ضيف لاعبين من 👥</div>';
+  else cards=c.map((id,i)=>{
+    const p=id&&P(id);
+    if(!p)return `<div class="pc empty" onclick="slotTap('${t}',${i})">+</div>`;
+    const x=totals(p.s);
+    return `<div class="pc" data-pid="${id}" onclick="cardTap(${id})"><div class="no">${esc(p.no)||"-"}</div><div class="nm">${esc(p.name)||"لاعب"}</div><div class="meta"><span class="pt">${x.pts} ن · ${p.s.pf} خ</span><span class="tm" data-t="${id}" onclick="event.stopPropagation();tmEdit(${id})">${fmt(p.s.sec)}</span></div></div>`}).join("");
+  return `<div class="hv ${t}">${cards}</div>`;
+}
+function bn(t){
+  const list=t==="a"?S.players:S.opp,c=courtOf(t),b=list.filter(p=>!c.includes(p.id));
+  return `<div class="bn ${t}"><span class="bl">${t==="a"?"دكة فريقنا":"دكة الخصم"}</span>${b.map(p=>`<button class="bp ${S.benchSel===p.id?"on":""}" onclick="benchTap(${p.id})"><i>${esc(p.no)||"-"}</i>${esc(p.name)}</button>`).join("")}</div>`;
+}
+function topbar(){
+  const T=S.timer,a=totals(teamS()),o=sumS(S.opp),b=totals(o);
+  return `<div class="tb"><div class="sc a"><span>نحن · خ ${teamS().pf}</span><b>${a.pts}</b></div><div class="ck ${T.running?"run":""}"><button class="ckb" onclick="clkPanel()" aria-label="تغيير الوقت">⚙</button><div id="clk" onclick="clkEdit()" class="${T.left<=10?"low":""}">${fmt(T.left)}</div><button class="ckb ${T.running?"":"go"}" onclick="clkToggle()">${T.running?"⏸":"▶"}</button><button class="ckb" onclick="clkReset()">↺</button></div><div class="sc b"><span>الخصم</span><b>${S.oppScore}</b></div><div class="tbn"><button onclick="go('roster')" aria-label="اللاعبين">👥</button><button onclick="go('report')" aria-label="التقرير">📊</button></div></div>`;
+}
+const oppName=()=>S.oppName||"الخصم";
+function oppRen(){ask("اسم الفريق الخصم",oppName(),v=>{v=(v||"").trim();if(!v)return;S.oppName=v;save();render()})}
+function oppPf(d){S.oppPF=Math.max(0,S.oppPF+d);save();render()}
+function oppAdd(d){const i=S.q-1;S.oppQ[i]=Math.max(0,(S.oppQ[i]||0)+d);S.oppScore=S.oppQ.reduce((a,b)=>a+b,0);save();render()}
+function oppPanel(){
+  return `<div class="oppv"><div class="ol">🆚 الخصم</div><div class="ov">${S.oppScore}</div><div class="ob"><button onclick="oppAdd(1)">+1</button><button onclick="oppAdd(2)">+2</button><button onclick="oppAdd(3)">+3</button><button class="mn" onclick="oppAdd(-1)">−1</button></div></div>`;
+}
+function clkOverlay(){
+  if(!S.clkOpen)return"";const T=S.timer;
+  return `<div class="sheet-bg dlgbg" onclick="clkPanel()"><div class="cpanel" onclick="event.stopPropagation()" style="width:min(92%,560px);margin:0"><h3>مدة التايمر</h3><div class="chips">${[1,2,3,5,8,10,12,15,20,30,45,60].map(m=>`<button class="chip ${m*60===T.len?"on":""}" onclick="clkPreset(${m})">${m} د</button>`).join("")}</div><div class="row"><input id="cm" class="n" placeholder="دقايق" inputmode="decimal"><button class="btn" onclick="clkCustom()">ضبط</button><button class="btn g" onclick="clkAdj(-1)">−1 د</button><button class="btn g" onclick="clkAdj(1)">+1 د</button></div></div></div>`;
+}
+/* ===== shot chart ===== */
+const SHOT_MADE=["m2l","m2s","m3"],SHOT_MISS=["x2l","x2s","x3"],SHOT_KEYS=SHOT_MADE.concat(SHOT_MISS);
+const shotsOf=l=>{const r=[];l.forEach(p=>(p.log||[]).forEach(e=>{if(e.x!=null&&SHOT_KEYS.includes(e.k))r.push({x:e.x,y:e.y,m:SHOT_MADE.includes(e.k)})}));return r};
+const HC_LINES='<rect width="100" height="94" fill="#d8a86f"/><rect x="34" y="56" width="32" height="38" fill="rgba(15,138,126,.3)"/><g fill="none" stroke="#fff" stroke-width=".9" stroke-linecap="round"><rect x=".45" y=".45" width="99.1" height="93.1"/><rect x="34" y="56" width="32" height="38"/><path d="M38 56A12 12 0 0 1 62 56"/><path d="M38 56A12 12 0 0 0 62 56" stroke-dasharray="2 2"/><path d="M6 94V65.6A47.5 47.5 0 0 1 94 65.6V94"/><path d="M42 83.5A8 8 0 0 1 58 83.5"/><path d="M44 86H56"/><path d="M38 0A12 12 0 0 0 62 0"/></g><circle cx="50" cy="83.5" r="2.2" fill="none" stroke="#ff7a1a" stroke-width="1.2"/>';
+function chartSvg(sh,click){
+  return `<svg class="hc" viewBox="0 0 100 94" ${click?'onclick="shotTap(event)"':""} aria-label="خريطة التسديد">${HC_LINES}${sh.map(o=>o.m?`<circle cx="${o.x}" cy="${o.y}" r="2.6" fill="#16a34a" stroke="#fff" stroke-width=".7"/>`:`<path d="M${o.x-2} ${o.y-2}L${o.x+2} ${o.y+2}M${o.x+2} ${o.y-2}L${o.x-2} ${o.y+2}" stroke="#e11d48" stroke-width="1.3" stroke-linecap="round"/>`).join("")}</svg>`;
+}
+const legend='<div class="legend"><span><i class="dm"></i> صح</span><span><i class="dx">✕</i> غلط</span></div>';
+function shotTap(ev){
+  const sv=ev.currentTarget,m=sv.getScreenCTM();if(!m||!S.shot)return;
+  const pt=sv.createSVGPoint();pt.x=ev.clientX;pt.y=ev.clientY;const q=pt.matrixTransform(m.inverse());
+  const p=P(S.shot.pid),e=p&&p.log[S.shot.idx];
+  if(e){e.x=+Math.max(0,Math.min(100,q.x)).toFixed(1);e.y=+Math.max(0,Math.min(94,q.y)).toFixed(1)}
+  S.shot=null;save();render();toast("📍 اتسجل مكان التسديدة");
+}
+function shotSkip(){S.shot=null;render()}
+function shotOverlay(){
+  if(!S.shot)return"";const p=P(S.shot.pid),e=p&&p.log[S.shot.idx];if(!e){S.shot=null;return""}
+  return `<div class="sheet-bg dlgbg" onclick="shotSkip()"><div class="pick" onclick="event.stopPropagation()"><div class="pk-h"><b>📍 فين اتسددت؟</b><span>${esc(p.no)} ${esc(p.name)} · ${lbl(e.k)}</span><button class="btn g" onclick="shotSkip()">تخطي</button></div>${chartSvg([],true)}</div></div>`;
+}
+
+/* ===== quarters ===== */
+const PTSK={m2l:2,m2s:2,m3:3,ftm:1};
+const qPts=l=>{const r=Array(S.qn).fill(0);l.forEach(p=>(p.log||[]).forEach(e=>{const w=PTSK[e.k];if(w)r[Math.min(Math.max(e.q||1,1),S.qn)-1]+=w}));return r};
+function qMove(d){const n=S.q+d;if(n<1||n>S.qn)return;S.q=n;if(d>0){S.timer.left=S.timer.len;S.timer.running=false}save();render();toast("الكوارتر "+n)}
+function qPanel(){S.qOpen=!S.qOpen;render()}
+function qN(n){S.qn=n;if(S.q>n)S.q=n;S.oppQ=Array.from({length:n},(_,i)=>S.oppQ[i]||0);S.oppScore=S.oppQ.reduce((a,b)=>a+b,0);S.qOpen=false;save();render()}
+function qbar(){
+  return `<div class="qbar"><button onclick="qMove(-1)" ${S.q<=1?"disabled":""}>▶</button><div class="qn"><b>الكوارتر ${S.q}</b><span>من ${S.qn}</span></div><button onclick="qMove(1)" ${S.q>=S.qn?"disabled":""}>◀</button><button class="qs" onclick="qPanel()">⚙ ${S.qn} كوارتر</button></div>`+
+  (S.qOpen?`<div class="cpanel"><h3>عدد الكوارترات</h3><div class="chips">${[2,3,4,5,6].map(n=>`<button class="chip ${n===S.qn?"on":""}" onclick="qN(${n})">${n}</button>`).join("")}</div></div>`:"");
+}
+function qCard(tt){
+  const a=qPts(S.players),la=a.reduce((x,y)=>x+y,0),ex=Math.max(0,tt.pts-la);
+  const th=a.map((_,i)=>`<th>Q${i+1}</th>`).join("");
+  return `<div class="card scr"><table class="t"><tr><th></th>${th}${ex?"<th>أخرى</th>":""}<th>المجموع</th></tr><tr><td><b>نحن</b></td>${a.map(x=>`<td>${x}</td>`).join("")}${ex?`<td>${ex}</td>`:""}<td><b>${tt.pts}</b></td></tr><tr><td><b>${esc(oppName())}</b></td>${S.oppQ.map(x=>`<td>${x}</td>`).join("")}${ex?"<td>-</td>":""}<td><b>${S.oppScore}</b></td></tr><tr><td><b>PF</b></td><td colspan="${a.length+(ex?1:0)+1}">نحن ${teamS().pf} · ${esc(oppName())} ${S.oppPF}</td></tr></table></div>`;
+}
+
+function playerStats(p){
+  const t=totals(p.s),s=p.s;
+  return [["وقت اللعب",fmt(s.sec)],["النقاط",t.pts],["التسديد",t.fgm+"/"+t.fga+" · "+pct(t.fgm,t.fga)],["2 نقطة",t.m2+"/"+t.a2+" · "+pct(t.m2,t.a2)],["3 نقاط",t.m3+"/"+t.a3+" · "+pct(t.m3,t.a3)],["رميات حرة",t.ftm+"/"+t.aft+" · "+pct(t.ftm,t.aft)],["ريبوند",t.reb],["هجومي",s.or],["دفاعي",s.dr],["تمريرات",s.as],["سرقات",s.st],["أخطاء",s.pf],["Turnover",t.to],["Double",s.tdt],["Travel",s.ttr],["Tov",s.tov||0]];
+}
+function cvBytes(cv){const b64=cv.toDataURL("image/jpeg",0.92).split(",")[1],bin=atob(b64),u=new Uint8Array(bin.length);for(let i=0;i<bin.length;i++)u[i]=bin.charCodeAt(i);return u}
+function drawCourtCanvas(g,ox,oy,cw2,sh){
+  const k=cw2/100;
+  g.fillStyle="#d8a86f";g.fillRect(ox,oy,cw2,94*k);g.fillStyle="rgba(15,138,126,.3)";g.fillRect(ox+34*k,oy+56*k,32*k,38*k);
+  g.strokeStyle="#fff";g.lineWidth=4;g.lineCap="round";g.strokeRect(ox,oy,cw2,94*k);g.strokeRect(ox+34*k,oy+56*k,32*k,38*k);
+  const ar=(cx,cy,r,a1,a2)=>{g.beginPath();g.arc(ox+cx*k,oy+cy*k,r*k,a1,a2,false);g.stroke()};
+  ar(50,56,12,Math.PI,2*Math.PI);g.setLineDash([14,14]);ar(50,56,12,0,Math.PI);g.setLineDash([]);
+  ar(50,83.5,8,Math.PI,2*Math.PI);ar(50,0,12,0,Math.PI);
+  ar(50,83.5,47.5,Math.PI+Math.atan2(17.9,44),2*Math.PI-Math.atan2(17.9,44));
+  g.beginPath();g.moveTo(ox+6*k,oy+94*k);g.lineTo(ox+6*k,oy+65.6*k);g.moveTo(ox+94*k,oy+94*k);g.lineTo(ox+94*k,oy+65.6*k);g.moveTo(ox+44*k,oy+86*k);g.lineTo(ox+56*k,oy+86*k);g.stroke();
+  g.strokeStyle="#ff7a1a";g.lineWidth=5;g.beginPath();g.arc(ox+50*k,oy+83.5*k,2.2*k,0,7);g.stroke();
+  sh.forEach(o=>{const px=ox+o.x*k,py=oy+o.y*k;
+    if(o.m){g.fillStyle="#16a34a";g.strokeStyle="#fff";g.lineWidth=3;g.beginPath();g.arc(px,py,2.6*k,0,7);g.fill();g.stroke()}
+    else{g.strokeStyle="#e11d48";g.lineWidth=6;g.beginPath();g.moveTo(px-2*k,py-2*k);g.lineTo(px+2*k,py+2*k);g.moveTo(px+2*k,py-2*k);g.lineTo(px-2*k,py+2*k);g.stroke()}});
+}
+
+function setFmt(f){S.fmt=f;const n=f==="33"?6:5;S.court=S.court.slice(0,n);while(S.court.length<n)S.court.push(null);S.subSlot=null;save();render()}
+function fmtSw(){return `<div class="mode side"><button class="${S.fmt!=="33"?"on p":""}" onclick="setFmt('5')">5 لاعبين · ملعب</button><button class="${S.fmt==="33"?"on p":""}" onclick="setFmt('33')">3 لاعبين × ملعبين</button></div>`}
+const JERSEY='<svg class="jy" viewBox="0 0 100 112" preserveAspectRatio="xMidYMid meet" aria-hidden="true"><path class="body" d="M24 2L38 2Q40 24 50 26Q60 24 62 2L76 2Q78 30 94 40L94 107Q94 110 91 110L9 110Q6 110 6 107L6 40Q22 30 24 2Z" fill="#14213d"/><g fill="none" stroke="#ffb020" stroke-width="3" stroke-linecap="round"><path d="M38 2Q40 24 50 26Q60 24 62 2"/><path d="M24 2Q22 30 6 40"/><path d="M76 2Q78 30 94 40"/><path d="M7 104H93" stroke-width="2.2"/></g></svg>';
+function slot(id,i){
+  const p=id&&P(id);
+  if(!p)return `<div class="pc empty" onclick="openSub(${i})">+</div>`;
+  const t=totals(p.s);
+  return `<div class="pc jr" data-pid="${id}" onclick="showP(${id})">${JERSEY}<div class="jc"><div class="no">${esc(p.no)||"-"}</div><div class="nm">${esc(p.name)||"لاعب"}</div><div class="st">PTS ${t.pts} · PF ${p.s.pf}</div></div><button class="sw" onclick="event.stopPropagation();openSub(${i})">⇄</button></div>`;
+}
+function floor(a,b,t){return `<div class="floor">${t?`<div class="fl">${t}</div>`:""}<div class="court">${S.court.slice(a,b).map((id,j)=>slot(id,a+j)).join("")}</div></div>`}
+/* ===== teams ===== */
+const TF=["players","court","fmt","qn","q","oppQ","oppScore","oppPF","oppName","timer"];
+const curTeam=()=>S.teams.find(t=>t.id===S.team)||S.teams[0];
+function newTeamData(){return {players:[],court:[null,null,null,null,null],fmt:"5",qn:4,q:1,oppQ:[0,0,0,0],oppScore:0,oppPF:0,oppName:"الخصم",timer:{len:600,left:600,running:false}}}
+function snap(){S.timer.running=false;const d={};TF.forEach(k=>d[k]=S[k]);return JSON.parse(JSON.stringify(d))}
+function pickTeam(id){
+  if(id===S.team)return;const cur=curTeam(),to=S.teams.find(t=>t.id===id);if(!to)return;
+  const prev=cur.name;cur.data=snap();
+  const d=to.data||newTeamData();TF.forEach(k=>S[k]=d[k]);to.data=null;S.team=id;
+  S.subSlot=null;S.detail=null;S.benchSel=null;S.shot=null;S.clkOpen=false;S.qOpen=false;S.rep="all";S.hist=[];
+  if(S.fname===prev||S.fname==="junior stats")S.fname=to.name;
+  norm();save();render();toast("✔ "+to.name);
+}
+function addTeam(){const i=document.getElementById("tn"),n=((i&&i.value)||"").trim();if(!n){toast("اكتب اسم الفريق");return}const t={id:Date.now(),name:n,data:newTeamData()};S.teams.push(t);save();pickTeam(t.id)}
+function renTeam(id){const t=S.teams.find(x=>x.id===id);if(!t)return;ask("اسم الفريق",t.name,v=>{v=(v||"").trim();if(!v)return;if(S.fname===t.name)S.fname=v;t.name=v;save();render()})}
+function delTeam(id){
+  if(S.teams.length<2){toast("لازم يفضل فريق واحد على الأقل");return}
+  ask("حذف الفريق وكل لاعبينه؟",null,()=>{if(id===S.team){const to=S.teams.find(t=>t.id!==id);pickTeam(to.id)}S.teams=S.teams.filter(t=>t.id!==id);save();render()});
+}
+function teamsView(){
+  let h='<div class="row"><input id="tn" placeholder="اسم فريق جديد"><button class="btn" onclick="addTeam()">➕ إضافة فريق</button></div><div class="card">';
+  h+=S.teams.map(t=>{const act=t.id===S.team,n=act?S.players.length:((t.data&&t.data.players)||[]).length;
+    return `<div class="trow ${act?"act":""}"><div class="tinfo"><b>${esc(t.name)}</b><span>${n} لاعب${act?" · الفريق الشغال":""}</span></div><button class="chip" onclick="renTeam(${t.id})" aria-label="تعديل الاسم">✏️</button><button class="chip" onclick="delTeam(${t.id})" aria-label="حذف">🗑</button><button class="btn ${act?"g":""}" onclick="pickTeam(${t.id})" ${act?"disabled":""}>${act?"✔ مختار":"اختيار"}</button></div>`}).join("")+'</div>';
+  h+='<div class="hint">لما تختار فريق، لاعبينه وإحصائياته ونتيجته بتتحمّل لوحدها في الملعب واللاعبين والتقرير. كل فريق بياناته منفصلة.</div>'
+  return h;
+}
+function teamNow(){return `<div class="tnow">🛡 الفريق: <b>${esc(curTeam().name)}</b> <button class="chip" onclick="go('teams')">تغيير</button></div>`}
+function undoLast(){
+  while(S.hist.length){
+    const h=S.hist.pop(),p=P(h.pid);if(!p||!p.s[h.k])continue;
+    p.s[h.k]-=1;const L=p.log||[];for(let i=L.length-1;i>=0;i--)if(L[i].k===h.k){L.splice(i,1);break}
+    if(S.shot&&S.shot.pid===h.pid)S.shot=null;
+    save();render();toast("↶ UNDO "+lbl(h.k)+" ← "+(p.no||"")+" "+(p.name||""));return;
+  }
+  toast("مفيش حاجة تتراجع عنها");
+}
+function clkPanelHtml(){const T=S.timer;return `<div class="cpanel"><h3>مدة التايمر</h3><div class="chips">${[1,2,3,5,8,10,12,15,20,30,45,60].map(m=>`<button class="chip ${m*60===T.len?"on":""}" onclick="clkPreset(${m})">${m} د</button>`).join("")}</div><div class="row"><input id="cm" class="n" placeholder="دقايق" inputmode="decimal"><button class="btn" onclick="clkCustom()">ضبط</button><button class="btn g" onclick="clkAdj(-1)">−1 د</button><button class="btn g" onclick="clkAdj(1)">+1 د</button></div></div>`}
+function qPanelHtml(){return `<div class="cpanel"><h3>عدد الكوارترات</h3><div class="chips">${[2,3,4,5,6].map(n=>`<button class="chip ${n===S.qn?"on":""}" onclick="qN(${n})">${n}</button>`).join("")}</div></div>`}
+function hdr(){
+  const T=S.timer,a=totals(teamS());
+  return `<div class="hd"><div class="hs a"><span>${esc(curTeam().name)}</span><b>${a.pts}</b><small>PF ${teamS().pf}</small></div>
+<div class="hm"><div class="hq"><button onclick="qMove(-1)" ${S.q<=1?"disabled":""}>▶</button><div><b>Q${S.q}</b><span>/${S.qn}</span></div><button onclick="qMove(1)" ${S.q>=S.qn?"disabled":""}>◀</button><button class="qs" onclick="qPanel()">⚙</button></div>
+<div class="hc ${T.running?"run":""}"><button onclick="clkPanel()" aria-label="تغيير الوقت">⚙</button><div id="clk" onclick="clkEdit()" class="${T.left<=10?"low":""}">${fmt(T.left)}</div><button class="${T.running?"":"go"}" onclick="clkToggle()">${T.running?"⏸":"▶"}</button><button onclick="clkReset()">↺</button></div></div>
+<div class="hs b"><span class="rn" onclick="oppRen()">${esc(oppName())} ✎</span><b>${S.oppScore}</b><div class="ob"><button onclick="oppAdd(1)">+1</button><button onclick="oppAdd(2)">+2</button><button onclick="oppAdd(3)">+3</button><button class="mn" onclick="oppAdd(-1)">−1</button></div><div class="pfr"><button onclick="oppPf(-1)">−</button><span>PF ${S.oppPF}</span><button onclick="oppPf(1)">+</button></div></div></div>`;
+}
+function live(){
+  if(!S.players.length)return teamNow()+'<div class="card">لسه مفيش لاعبين في الفريق ده. روح على «اللاعبين» وضيفهم، أو اختار فريق تاني من «الفرق» 👆</div>';
+  let h='<div class="lv">'+hdr()+(S.clkOpen?clkPanelHtml():"")+(S.qOpen?qPanelHtml():"");
+  h+=S.fmt==="33"?floor(0,3,"ملعب 1")+floor(3,6,"ملعب 2"):floor(0,5,"");
+  if(S.subSlot!==null){
+    const bench=S.players.filter(p=>!S.court.includes(p.id));
+    h+=`<div class="sub"><h3>${S.court[S.subSlot]?"اختار البديل:":"اختار لاعب يدخل:"}</h3><div class="chips">`+
+      (bench.length?bench.map(p=>`<button class="chip" onclick="doSub(${p.id})">${esc(p.no)} ${esc(p.name)}</button>`).join(""):'<span style="color:var(--mut);font-size:13px">مفيش لاعبين على الدكة</span>')+
+      (S.court[S.subSlot]?'<button class="chip" onclick="toBench()">⬇ إخراج للدكة</button>':"")+'</div></div>';
+  }
+  h+=`<div class="mode"><button class="p ${S.mode==="+"?"on":""}" onclick="setMode('+')">➕ ADD</button><button class="m ${S.mode==="-"?"on":""}" onclick="setMode('-')">➖ FIX</button><button class="u" onclick="undoLast()">↶ UNDO</button></div>`;
+  h+='<div class="pad '+(S.mode==="-"?"minus":"")+'">'+PAD.filter(Boolean).map(b=>`<div class="ab ${b[3]}" onpointerdown="dragStart(event,'${b[0]}')"><small>${b[1]}</small><span>${b[2]}</span></div>`).join("")+'</div>';
+  h+='<div class="hint">اسحب الزرار وسيبه على اللاعب · دوس على اللاعب تشوف عمل إيه</div>'+fmtSw()+sheet()+shotOverlay()+'</div>';
+  return h;
+}
+
+/* ===== drag an action button onto a player ===== */
+let DR=null;
+function cardAt(x,y){const el=document.elementFromPoint(x,y);return el&&el.closest?el.closest(".pc[data-pid]"):null}
+function toast(t){let e=document.getElementById("toast");if(!e){e=document.createElement("div");e.id="toast"}{const par=document.getElementById("stage")||document.body;if(e.parentNode!==par)par.appendChild(e)}e.textContent=t;e.style.opacity=1;clearTimeout(e._t);e._t=setTimeout(()=>{e.style.opacity=0},1400)}
+function dragStart(ev,k){
+  if(DR)return;ev.preventDefault();
+  const b=PAD.find(x=>x&&x[0]===k),src=ev.currentTarget;
+  const g=document.createElement("div");g.className="ghost "+(b[3]||"");g.innerHTML="<small>"+b[1]+"</small><span>"+b[2]+"</span>";
+  document.body.appendChild(g);
+  DR={k,b,g,hot:null,src,id:ev.pointerId};
+  src.classList.add("drag");
+  try{src.setPointerCapture(ev.pointerId)}catch(e){}
+  dragMove(ev);
+  window.addEventListener("pointermove",dragMove);
+  window.addEventListener("pointerup",dragEnd);
+  window.addEventListener("pointercancel",dragCancel);
+}
+function dragMove(ev){
+  if(!DR)return;
+  const x=ev.clientX,y=ev.clientY-56;
+  DR.g.style.left=x+"px";DR.g.style.top=y+"px";
+  const c=cardAt(x,y);
+  if(DR.hot!==c){if(DR.hot)DR.hot.classList.remove("hot","hotm");if(c)c.classList.add(S.mode==="-"?"hotm":"hot");DR.hot=c}
+}
+function dragClean(){
+  if(!DR)return;
+  window.removeEventListener("pointermove",dragMove);
+  window.removeEventListener("pointerup",dragEnd);
+  window.removeEventListener("pointercancel",dragCancel);
+  if(DR.hot)DR.hot.classList.remove("hot","hotm");
+  DR.src.classList.remove("drag");DR.g.remove();
+}
+function dragCancel(){dragClean();DR=null}
+function dragEnd(ev){
+  if(!DR)return;
+  const x=ev.clientX,y=ev.clientY-56,c=cardAt(x,y),k=DR.k,b=DR.b;
+  dragClean();DR=null;
+  if(!c){toast("سيب الزرار فوق اللاعب");return}
+  const id=+c.getAttribute("data-pid"),pl=P(id);if(!pl)return;
+  const LG=pl.log||(pl.log=[]);
+  if(S.mode==="-"){pl.s[k]=Math.max(0,pl.s[k]-1);for(let i=LG.length-1;i>=0;i--)if(LG[i].k===k){LG.splice(i,1);break}}
+  else{pl.s[k]+=1;S.hist.push({pid:id,k});if(S.hist.length>60)S.hist.shift();LG.push({k,c:fmt(S.timer.left),q:S.q});if(LG.length>300)LG.shift();if(SHOT_KEYS.includes(k))S.shot={pid:id,idx:LG.length-1}}
+  save();render();try{navigator.vibrate&&navigator.vibrate(18)}catch(e){}
+  const n=document.querySelector('.pc[data-pid="'+id+'"]');
+  if(n){n.classList.add(S.mode==="-"?"flashm":"flash");setTimeout(()=>n.classList.remove("flash","flashm"),450)}
+  toast((S.mode==="-"?"➖ ":"✅ ")+b[1]+" "+b[2]+" ← "+(pl.no||"")+" "+(pl.name||""));
+}
+function roster(){
+  let h=teamNow()+'<div class="row"><input class="n" id="no" placeholder="رقم" inputmode="numeric"><input id="nm" placeholder="اسم اللاعب"><button class="btn" onclick="addP()">إضافة</button></div><div class="card">';
+  h+=TM().length?TM().map(p=>`<div class="pl"><input class="n" value="${esc(p.no)}" onchange="edP(${p.id},'no',this.value)"><input class="m" value="${esc(p.name)}" onchange="edP(${p.id},'name',this.value)"><small>${CT().includes(p.id)?"ملعب":"دكة"}</small><button class="chip" onclick="rstP(${p.id})">0️⃣</button><button class="chip" onclick="delP(${p.id})">🗑</button></div>`).join(""):(S.side==="b"?'لسه مفيش لاعبين للخصم <button class="btn" style="margin-top:8px" onclick="addDummy()">إضافة 5 وهميين</button>':"لسه مفيش لاعبين");
+  return h+'</div><button class="btn g" style="width:100%" onclick="rstAll()">🔄 ماتش جديد (تصفير الكل)</button>';
+}
+function reportAll(){
+  if(!S.players.length)return '<div class="card">ضيف لاعبين الأول.</div>';
+  const tt=totals(teamS());
+  return `<div class="card"><div class="tot"><div><span>نقاط الفريق</span><strong>${tt.pts}</strong></div><div><span>نسبة التسديد</span><strong>${pct(tt.fgm,tt.fga)}</strong></div><div><span>ريبوند</span><strong>${tt.reb}</strong></div><div><span>Turnovers</span><strong>${tt.to}</strong></div></div></div>
+  <div class="card scr"><table class="t"><tr>${H.map(x=>`<th>${x}</th>`).join("")}</tr>${allRows().map(r=>`<tr class="${isTm(r)?"tm":""}">${r.map(x=>`<td>${esc(x)}</td>`).join("")}</tr>`).join("")}</table></div>${qCard(tt)}
+  ${chartsCard()}<div class="card"><div style="font-size:13px;color:var(--mut);margin-bottom:4px">اسم الملف (وعنوان التقرير)</div>
+  <div class="row" style="margin-top:0"><input id="fn" value="${esc(S.fname)}" oninput="S.fname=this.value;save()"></div>
+  <div class="row"><button class="btn" style="flex:2" onclick="exportPDF()">📄 حفظ PDF</button><button class="btn g" style="flex:1" onclick="printPDF()">🖨 طباعة</button></div></div>`;
+}
+function chartsCard(){
+  const a=shotsOf(S.players),b=shotsOf(S.opp);if(!a.length&&!b.length)return"";
+  const blk=(t,l)=>l.length?`<div><div class="ct">${t} · ${l.filter(o=>o.m).length} صح من ${l.length}</div>${chartSvg(l)}</div>`:"";
+  return `<div class="card"><h3 style="margin:0 0 8px;font-size:15px">📍 خريطة التسديد</h3><div class="charts">${blk("فريقنا",a)}${blk("الخصم",b)}</div>${legend}</div>`;
+}
+function setRep(v){S.rep=v;save();render()}
+function pickRP(id){S.repP=id;save();render()}
+function detail(){
+  const all=S.players.concat(S.opp);if(!all.length)return '<div class="card">ضيف لاعبين الأول.</div>';
+  const p=P(S.repP)||all[0],t=totals(p.s),s=p.s,sh=shotsOf([p]),qp=qPts([p]);
+  const chips=(l,tag)=>l.length?`<div class="ct">${tag}</div><div class="chips">${l.map(x=>`<button class="chip ${x.id===p.id?"on":""}" onclick="pickRP(${x.id})">${esc(x.no)} ${esc(x.name)}</button>`).join("")}</div>`:"";
+  const st=playerStats(p);
+  return `<div class="card">${chips(S.players,"فريقنا")}${chips(S.opp,"الخصم")}</div>
+  <div class="card"><h2 class="dh"><span class="dn">${esc(p.no)||"-"}</span>${esc(p.name)||"لاعب"}</h2>
+  <h3 class="eh">📍 خريطة تسديداته${sh.length?` · ${sh.filter(o=>o.m).length} صح من ${sh.length}`:""}</h3>${chartSvg(sh)}${legend}${sh.length?"":'<div class="hint">مفيش تسديدات متحدد مكانها لسه.</div>'}
+  <h3 class="eh" style="margin-top:14px">النقاط حسب الكوارتر</h3><div class="ssum">${qp.map((x,i)=>`<div><span>Q${i+1}</span><b>${x}</b></div>`).join("")}</div><h3 class="eh" style="margin-top:14px">الإحصائيات</h3><div class="ssum">${st.map(a=>`<div><span>${a[0]}</span><b>${a[1]}</b></div>`).join("")}</div></div>`;
+}
+function report(){
+  if(!S.players.length&&!S.opp.length)return '<div class="card">ضيف لاعبين الأول.</div>';
+  return `<div class="mode side"><button class="${S.rep!=="det"?"on p":""}" onclick="setRep('all')">📊 التقرير</button><button class="${S.rep==="det"?"on p":""}" onclick="setRep('det')">🔍 تفصيلي لكل لاعب</button></div>`+(S.rep==="det"?detail():reportAll());
+}
+function render(){
+  document.getElementById("nav").innerHTML=[["live","🏀 الملعب"],["teams","🛡 الفرق"],["roster","👥 اللاعبين"],["report","📊 التقرير"]].map(([k,l])=>`<button class="${S.tab===k?"on":""}" onclick="go('${k}')">${l}</button>`).join("");
+  document.getElementById("view").innerHTML=S.tab==="live"?live():S.tab==="teams"?teamsView():S.tab==="roster"?roster():report();
+  try{document.body.classList.remove("stageOn")}catch(e){}
+}
+function printPDF(){
+  const tt=totals(teamS());
+  document.getElementById("rep").innerHTML=`<h1>${esc(S.fname)}</h1><div class="d">${new Date().toLocaleDateString("ar-EG")} — نسبة التسديد ${pct(tt.fgm,tt.fga)} | النقطتين ${pct(tt.m2,tt.a2)} | الثلاثية ${pct(tt.m3,tt.a3)} | الحرة ${pct(tt.ftm,tt.aft)}</div><table><tr>${H.map(h=>`<th>${h}</th>`).join("")}</tr>${pdfRows().map(r=>`<tr class="${isTm(r)?"tm":""}">${r.map(x=>`<td>${esc(x)}</td>`).join("")}</tr>`).join("")}</table>`;
+  const old=document.title;document.title=fname();setTimeout(()=>{window.print();document.title=old},100);
+}
+function makePDF(jpgs,w,h){
+  const enc=new TextEncoder(),parts=[],offs=[];let len=0;
+  const push=b=>{const u=typeof b==="string"?enc.encode(b):b;parts.push(u);len+=u.length};
+  const obj=(n,fn)=>{offs[n]=len;push(n+" 0 obj\n");fn();push("\nendobj\n")};
+  const n=jpgs.length,total=2+3*n;
+  push("%PDF-1.4\n");
+  obj(1,()=>push("<</Type/Catalog/Pages 2 0 R>>"));
+  obj(2,()=>push(`<</Type/Pages/Count ${n}/Kids[${jpgs.map((_,i)=>(3+3*i)+" 0 R").join(" ")}]>>`));
+  jpgs.forEach((jb,i)=>{
+    const pg=3+3*i,c=pg+1,im=pg+2,s="q 842 0 0 595 0 0 cm /Im0 Do Q";
+    obj(pg,()=>push(`<</Type/Page/Parent 2 0 R/MediaBox[0 0 842 595]/Resources<</XObject<</Im0 ${im} 0 R>>>>/Contents ${c} 0 R>>`));
+    obj(c,()=>push(`<</Length ${s.length}>>\nstream\n${s}\nendstream`));
+    obj(im,()=>{push(`<</Type/XObject/Subtype/Image/Width ${w}/Height ${h}/ColorSpace/DeviceRGB/BitsPerComponent 8/Filter/DCTDecode/Length ${jb.length}>>\nstream\n`);push(jb);push("\nendstream")});
+  });
+  const x=len;push(`xref\n0 ${total+1}\n0000000000 65535 f \n`);
+  for(let i=1;i<=total;i++)push(String(offs[i]).padStart(10,"0")+" 00000 n \n");
+  push(`trailer\n<</Size ${total+1}/Root 1 0 R>>\nstartxref\n${x}\n%%EOF`);
+  return new Blob(parts,{type:"application/pdf"});
+}
+async function exportPDF(){
+  if(!S.players.length){toast("ضيف لاعبين الأول");return}
+  const tt=totals(teamS()),rows=pdfRows();
+  const W=2200,HH=1556,M=40,RH=64,HDR=90,top=190,per=Math.floor((HH-top-HDR-30)/RH);
+  const cw=[90,260].concat(Array(20).fill(88));
+  const pages=[];
+  for(let st=0;st<rows.length;st+=per){
+    const cv=document.createElement("canvas");cv.width=W;cv.height=HH;
+    const g=cv.getContext("2d");g.direction="rtl";g.textAlign="center";g.textBaseline="middle";
+    g.fillStyle="#fff";g.fillRect(0,0,W,HH);g.fillStyle="#000";
+    g.textAlign="right";g.font="bold 46px sans-serif";g.fillText(S.fname||"إحصائيات",W-M,60);
+    g.font="26px sans-serif";g.fillStyle="#444";
+    g.fillText(`${new Date().toLocaleDateString("ar-EG")}  |  التسديد ${pct(tt.fgm,tt.fga)}  |  النقطتين ${pct(tt.m2,tt.a2)}  |  الثلاثية ${pct(tt.m3,tt.a3)}  |  الحرة ${pct(tt.ftm,tt.aft)}`,W-M,120);
+    g.textAlign="center";
+    const cell=(i,y,h,txt,bg,font)=>{
+      let xr=W-M;for(let k=0;k<i;k++)xr-=cw[k];
+      g.fillStyle=bg;g.fillRect(xr-cw[i],y,cw[i],h);g.strokeStyle="#444";g.lineWidth=2;g.strokeRect(xr-cw[i],y,cw[i],h);
+      g.fillStyle="#000";g.font=font;
+      const ls=String(txt).split(" ");const lh=26;
+      ls.forEach((l,j)=>g.fillText(l,xr-cw[i]/2,y+h/2+(j-(ls.length-1)/2)*lh));
+    };
+    H.forEach((h,i)=>cell(i,top,HDR,h,"#e9e9e9","bold 22px sans-serif"));
+    rows.slice(st,st+per).forEach((r,j)=>{
+      const last=isTm(rows[st+j]);
+      r.forEach((v,i)=>cell(i,top+HDR+j*RH,RH,v,last?"#f0f0f0":"#fff",(last?"bold ":"")+"28px sans-serif"));
+    });
+    const b64=cv.toDataURL("image/jpeg",0.92).split(",")[1],bin=atob(b64),u=new Uint8Array(bin.length);
+    for(let i=0;i<bin.length;i++)u[i]=bin.charCodeAt(i);
+    pages.push(u);
+  }
+  {
+    const tt2=totals(teamS()),qa=qPts(S.players),ex=Math.max(0,tt2.pts-qa.reduce((x,y)=>x+y,0));
+    const cv=document.createElement("canvas");cv.width=W;cv.height=HH;
+    const g=cv.getContext("2d");g.direction="rtl";g.fillStyle="#fff";g.fillRect(0,0,W,HH);
+    g.fillStyle="#000";g.textAlign="right";g.textBaseline="middle";g.font="bold 46px sans-serif";g.fillText((S.fname||"إحصائيات")+" — النتيجة بالكوارترات",W-M,60);
+    const cols=[""].concat(qa.map((_,i)=>"Q"+(i+1)),ex?["أخرى"]:[],["المجموع"]);
+    const rows=[["نحن"].concat(qa,ex?[ex]:[],[tt2.pts]),[oppName()].concat(S.oppQ,ex?["-"]:[],[S.oppScore])];
+    const lw=300,cw=Math.min(240,(W-2*M-lw)/(cols.length-1)),rh=100;
+    [cols].concat(rows).forEach((r,ri)=>{
+      r.forEach((c,ci)=>{
+        const x=W-M-(ci===0?lw:lw+(ci-1)*cw)-(ci===0?0:cw),w=ci===0?lw:cw,y=180+ri*rh;
+        g.fillStyle=ri===0?"#14213d":(ri%2?"#fff":"#f1f4f8");g.fillRect(x,y,w,rh);
+        g.strokeStyle="#cfd6df";g.lineWidth=2;g.strokeRect(x,y,w,rh);
+        g.fillStyle=ri===0?"#fff":"#111";g.textAlign="center";g.font=(ri===0||ci===0||ci===cols.length-1?"bold ":"")+"40px sans-serif";
+        g.fillText(String(c),x+w/2,y+rh/2);
+      });
+    });
+    g.fillStyle="#333";g.textAlign="right";g.font="34px sans-serif";g.fillText("الأخطاء (PF) — نحن: "+teamS().pf+"   |   "+oppName()+": "+S.oppPF,W-M,180+3*rh+60);
+    const b64=cv.toDataURL("image/jpeg",0.92).split(",")[1],bin=atob(b64),u=new Uint8Array(bin.length);
+    for(let i=0;i<bin.length;i++)u[i]=bin.charCodeAt(i);
+    pages.push(u);
+  }
+  {
+    const a=shotsOf(S.players),b=shotsOf(S.opp);
+    if(a.length||b.length){
+      const cv=document.createElement("canvas");cv.width=W;cv.height=HH;
+      const g=cv.getContext("2d");g.direction="rtl";g.fillStyle="#fff";g.fillRect(0,0,W,HH);
+      g.fillStyle="#000";g.textAlign="right";g.textBaseline="middle";g.font="bold 46px sans-serif";g.fillText((S.fname||"إحصائيات")+" — خريطة التسديد",W-M,60);
+      const list=[["فريقنا",a],["الخصم",b]].filter(x=>x[1].length),cw2=list.length>1?980:1100,gap=60,tot=list.length*cw2+(list.length-1)*gap;
+      list.forEach((x,i)=>{
+        const ox=(W-tot)/2+(list.length-1-i)*(cw2+gap),oy=210,k=cw2/100,sh=x[1];
+        g.fillStyle="#222";g.textAlign="center";g.font="bold 36px sans-serif";g.fillText(x[0]+" — "+sh.filter(o=>o.m).length+" صح من "+sh.length,ox+cw2/2,oy-40);
+        g.fillStyle="#d8a86f";g.fillRect(ox,oy,cw2,94*k);g.fillStyle="rgba(15,138,126,.3)";g.fillRect(ox+34*k,oy+56*k,32*k,38*k);
+        g.strokeStyle="#fff";g.lineWidth=4;g.lineCap="round";g.strokeRect(ox,oy,cw2,94*k);g.strokeRect(ox+34*k,oy+56*k,32*k,38*k);
+        const ar=(cx,cy,r,a1,a2)=>{g.beginPath();g.arc(ox+cx*k,oy+cy*k,r*k,a1,a2,false);g.stroke()};
+        ar(50,56,12,Math.PI,2*Math.PI);g.setLineDash([14,14]);ar(50,56,12,0,Math.PI);g.setLineDash([]);
+        ar(50,83.5,8,Math.PI,2*Math.PI);ar(50,0,12,0,Math.PI);
+        const a1=Math.PI+Math.atan2(17.9,44),a2=2*Math.PI-Math.atan2(17.9,44);
+        ar(50,83.5,47.5,a1,a2);
+        g.beginPath();g.moveTo(ox+6*k,oy+94*k);g.lineTo(ox+6*k,oy+65.6*k);g.moveTo(ox+94*k,oy+94*k);g.lineTo(ox+94*k,oy+65.6*k);g.moveTo(ox+44*k,oy+86*k);g.lineTo(ox+56*k,oy+86*k);g.stroke();
+        g.strokeStyle="#ff7a1a";g.lineWidth=5;g.beginPath();g.arc(ox+50*k,oy+83.5*k,2.2*k,0,7);g.stroke();
+        sh.forEach(o=>{const px=ox+o.x*k,py=oy+o.y*k;
+          if(o.m){g.fillStyle="#16a34a";g.strokeStyle="#fff";g.lineWidth=3;g.beginPath();g.arc(px,py,2.6*k,0,7);g.fill();g.stroke()}
+          else{g.strokeStyle="#e11d48";g.lineWidth=6;g.beginPath();g.moveTo(px-2*k,py-2*k);g.lineTo(px+2*k,py+2*k);g.moveTo(px+2*k,py-2*k);g.lineTo(px-2*k,py+2*k);g.stroke()}});
+      });
+      g.fillStyle="#444";g.textAlign="center";g.font="28px sans-serif";g.fillText("● صح     ✕ غلط",W/2,HH-50);
+      const b64=cv.toDataURL("image/jpeg",0.92).split(",")[1],bin=atob(b64),u=new Uint8Array(bin.length);
+      for(let i=0;i<bin.length;i++)u[i]=bin.charCodeAt(i);
+      pages.push(u);
+    }
+  }
+  S.players.forEach(p=>{
+    const sh=shotsOf([p]),t=totals(p.s),sx=p.s;
+    const cv=document.createElement("canvas");cv.width=W;cv.height=HH;
+    const g=cv.getContext("2d");g.direction="rtl";g.fillStyle="#fff";g.fillRect(0,0,W,HH);
+    g.fillStyle="#000";g.textAlign="right";g.textBaseline="middle";g.font="bold 50px sans-serif";
+    g.fillText((p.no?p.no+" ":"")+(p.name||"لاعب")+" — تقرير تفصيلي",W-M,62);
+    const cw2=1000,ox=W-M-cw2,oy=210;
+    g.fillStyle="#222";g.textAlign="center";g.font="bold 34px sans-serif";
+    g.fillText("خريطة التسديد"+(sh.length?" — "+sh.filter(o=>o.m).length+" صح من "+sh.length:" — لا توجد تسديدات محددة"),ox+cw2/2,oy-40);
+    drawCourtCanvas(g,ox,oy,cw2,sh);
+    g.fillStyle="#444";g.font="26px sans-serif";g.fillText("● صح     ✕ غلط",ox+cw2/2,oy+94*cw2/100+36);
+    const items=playerStats(p).concat(qPts([p]).map((x,i)=>["PTS Q"+(i+1),x]));
+    const cwid=330,chh=170,gap=24,right=ox-60;
+    items.forEach((it,i)=>{
+      const col=i%3,row=Math.floor(i/3),x=right-(col+1)*cwid-col*gap,y=190+row*(chh+gap);
+      g.fillStyle="#eef2f6";g.fillRect(x,y,cwid,chh);
+      g.fillStyle="#5b6b80";g.textAlign="center";g.font="30px sans-serif";g.fillText(String(it[0]),x+cwid/2,y+48);
+      g.fillStyle="#0f1b2d";g.font="bold 44px sans-serif";g.fillText(String(it[1]),x+cwid/2,y+112);
+    });
+    pages.push(cvBytes(cv));
+  });
+  const blob=makePDF(pages,W,HH),nm=fname()+".pdf";
+  const file=new File([blob],nm,{type:"application/pdf"});
+  try{
+    if(navigator.canShare&&navigator.canShare({files:[file]})){await navigator.share({files:[file],title:S.fname});return}
+  }catch(e){if(e&&e.name==="AbortError")return}
+  const url=URL.createObjectURL(blob),a=document.createElement("a");
+  a.href=url;a.download=nm;document.body.appendChild(a);a.click();a.remove();
+  setTimeout(()=>URL.revokeObjectURL(url),60000);
+}
+render();
+(async()=>{
+  try{
+    if(!window.claude||!claude.use)return;
+    const [db,user]=await Promise.all([claude.use("db"),claude.use("user")]);
+    if(!db||!user)return;
+    const id=await user.id();if(!id)return;
+    const d=db.collection("data/users/"+id).doc("bara3em");
+    const snap=await d.get();
+    let localAt=0;try{localAt=+localStorage.getItem("bara3em_at")||0}catch(e){}
+    if(snap.exists){
+      const v=snap.data();
+      if(v&&typeof v.json==="string"&&(v.at||0)>localAt){
+        const x=JSON.parse(v.json);
+        if(x&&Array.isArray(x.players)){Object.assign(S,x);norm();try{localStorage.setItem("bara3em",JSON.stringify(S));localStorage.setItem("bara3em_at",String(v.at))}catch(e){}render()}
+      }else if(localAt>(v&&v.at||0)){await d.set({json:JSON.stringify(S),at:localAt})}
+    }else if(S.players.length){await d.set({json:JSON.stringify(S),at:localAt||Date.now()})}
+    cloudDoc=d;
+  }catch(e){}
+})();
+</script>
+</body>
+</html>
